@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="white">#FFFFFF</color>
+    <color name="transparent">#00000000</color>
+    <color name="red">#FF0000</color>
+    <color name="green">#00FF00</color>
+    <color name="black">#000000</color>
+
+    <color name="edocid_colorPrimary">#0072a5</color>
+    <color name="edocid_colorPrimaryDark">#FF092342</color>
+    <color name="edocid_colorAccent">#00B0FF</color>
+
+
+    <!-- color for all textview -->
+    <color name="edocid_all_text">@color/white</color>
+
+    <color name="edocid_background">@color/transparent</color>
+    <color name="edocid_btn_background_default">@color/transparent</color>
+
+
+    <!-- take data view -->
+    <color name="edocid_take_data_button_accept">@color/transparent</color>
+    <color name="edocid_take_data_button_accept_text">@color/black</color>
+    <color name="edocid_take_data_buttons_back_exit">@color/black</color>
+    <color name="edocid_take_data_input_field_text">@color/black</color>
+    <color name="edocid_take_data_input_field_background">#DFDFDF</color>
+    <color name="edocid_take_data_input_field_border">#DFDFDF</color>
+    <color name="edocid_take_data_input_field_edit_icon">@color/black</color>
+    <color name="edocid_take_data_input_field_hint">#808080</color>
+    <color name="edocid_take_data_title">@color/black</color>
+    <color name="edocid_take_data_subtitle">@color/black</color>
+
+
+
+    <!-- mrz camera view -->
+    <color name="edocid_camera_buttons_back_exit">@color/white</color>
+
+    <!-- ui layout -->
+    <color name="edocid_layout_background">@color/transparent</color>
+
+    <color name="edocid_nfc_waiting_buttons_back_exit">@color/black</color>
+
+    <!-- nfc waiting-->
+    <color name="edocid_nfc_waiting_top_title">@color/black</color>
+    <color name="edocid_nfc_waiting_title">@color/black</color>
+    <color name="edocid_nfc_waiting_message">@color/black</color>
+
+    <!-- nfc reading view-->
+    <color name="edocid_nfc_reading_top_title">@color/black</color>
+    <color name="edocid_nfc_reading_title">@color/black</color>
+    <color name="edocid_nfc_reading_message">@color/black</color>
+    <color name="edocid_process_data">@color/black</color>
+
+    <color name="edocid_progressbar">#4CAF50</color>
+
+    <color name="edocid_dialog_background">@color/black</color>
+    <color name="edocid_dialog_title">@color/white</color>
+    <color name="edocid_dialog_message">@color/white</color>
+    <color name="edocid_dialog_button_text">@color/white</color>
+    <color name="edocid_dialog_button">@color/transparent</color>
+    <color name="edocid_dialog_button_accept">@color/transparent</color>
+    <color name="edocid_dialog_button_discard">@color/transparent</color>
+    <color name="edocid_dialog_button_accept_text">@color/white</color>
+    <color name="edocid_dialog_button_discard_text">@color/white</color>
+
+    <!-- form recap data -->
+    <color name="edocid_recap_data_form_input_field_hint">@color/black</color>
+    <color name="edocid_recap_data_form_input_field_text">@color/black</color>
+    <color name="edocid_recap_data_form_input_field_empty_border">@color/red</color>
+    <color name="edocid_recap_data_form_input_field_background">@color/white</color>
+    <color name="edocid_recap_data_form_section">#B5B5B5</color>
+    <color name="edocid_recap_data_form_input_field_border">#DFDFDF</color>
+    <color name="edocid_recap_data_form_section_text">@color/black</color>
+    <color name="edocid_recap_data_form_button_accept">@color/transparent</color>
+    <color name="edocid_recap_data_form_button_accept_text">@color/black</color>
+    <color name="edocid_recap_data_form_title">@color/black</color>
+    <color name="edocid_recap_data_form_subtitle">@color/black</color>
+    <color name="edocid_recap_data_form_input_field_edit_field_icon">@color/black</color>
+    <color name="edocid_recap_data_form_background">@color/transparent</color>
+
+    <color name="edocid_edit_field">@color/black</color>
+
+</resources>

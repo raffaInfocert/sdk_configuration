@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="assisted_selfie_oval_width">0.8</string>
+    <string name="assisted_selfie_oval_aspect_ratio">1.1</string>
+    <!-- start view -->
+    <string name="assisted_selfie_start_button_width">0.9</string>
+    <dimen name="assisted_selfie_start_button_text">17sp</dimen>
+    <dimen name="assisted_selfie_start_button_corner_radius">15dp</dimen>
+    <dimen name="assisted_selfie_start_title">18sp</dimen>
+    <dimen name="assisted_selfie_start_subtitle">16sp</dimen>
+
+    <!-- Take Photo -->
+    <dimen name="assisted_selfie_photo_title">18sp</dimen>
+    <dimen name="assisted_selfie_photo_subtitle">16sp</dimen>
+
+    <!-- Liveness view -->
+    <dimen name="assisted_selfie_liveness_title">18sp</dimen>
+    <dimen name="assisted_selfie_liveness_subtitle">16sp</dimen>
+
+    <!-- Check view -->
+    <dimen name="assisted_selfie_check_title">18sp</dimen>
+    <dimen name="assisted_selfie_check_subtitle">16sp</dimen>
+    <dimen name="assisted_selfie_check_button_accept_text">17sp</dimen>
+    <dimen name="assisted_selfie_check_button_discard_text">17sp</dimen>
+    <string name="assisted_selfie_check_button_accept_width">0.9</string>
+    <string name="assisted_selfie_check_button_discard_width">0.9</string>
+    <dimen name="assisted_selfie_check_modal_corner_radius">15dp</dimen>
+    <dimen name="assisted_selfie_check_button_corner_radius">15dp</dimen>
+
+</resources>

@@ -1,0 +1,105 @@
+<resources>
+
+    <!-- selection activity -->
+    <string name="doc_capture_selection_title">Which document do you want to use?</string>
+    <string name="doc_capture_selection_eidc">Electronic ID Card</string>
+    <string name="doc_capture_selection_pidc">Paper ID Card</string>
+    <string name="doc_capture_selection_passport">Passport</string>
+    <string name="doc_capture_selection_dlc">Driving Licence</string>
+    <string name="doc_capture_selection_hic">Health Insurance Card</string>
+    <string name="doc_capture_selection_rpc">Residence Permit</string>
+    <string name="doc_capture_selection_button_accept">Confirm</string>
+    <string name="doc_capture_selection_title_nations">Nationality document</string>
+    <string name="doc_capture_selection_title_documents">Type of document</string>
+    <string-array name="doc_capture_docs_array">
+        <item>@string/doc_capture_selection_eidc</item>
+        <item>@string/doc_capture_selection_pidc</item>
+        <item>@string/doc_capture_selection_passport</item>
+        <item>@string/doc_capture_selection_dlc</item>
+        <item>@string/doc_capture_selection_hic</item>
+        <item>@string/doc_capture_selection_rpc</item>
+    </string-array>
+    <!-- check activity -->
+    <string name="doc_capture_check_title">Check that the picture is clear and legible</string>
+    <string name="doc_capture_check_title_blurry">The photo is blurry</string>
+    <string name="doc_capture_check_title_glare">The photo has some glare</string>
+    <string name="doc_capture_check_title_document_not_found">Document not found</string>
+    <string name="doc_capture_check_rotate_title">Check that the photo is oriented correctly</string>
+    <string name="doc_capture_check_subtitle">Make sure the details of your document are all visible</string>
+    <string name="doc_capture_check_subtitle_blurry">Retake the photo clearly</string>
+    <string name="doc_capture_check_subtitle_glare">Retake the photo clearly</string>
+    <string name="doc_capture_check_subtitle_document_not_found">It appears that the document was not scanned correctly</string>
+    <string name="doc_capture_check_rotate_subtitle">Rotate the photo in case it is upside down</string>
+    <string name="doc_capture_check_button_accept">THE PICTURE IS VISIBLE</string>
+    <string name="doc_capture_check_button_discard">Retake photo</string>
+    <string name="doc_capture_check_button_rotate">Rotate the picture</string>
+    <string name="doc_capture_check_button_accept_rotate">The image is oriented correctly</string>
+
+    <!-- instructions activity -->
+    <string name="doc_capture_instructions_title_eidc_front">Front of your electronic id card</string>
+    <string name="doc_capture_instructions_title_eidc_back">Back of your electronic id card</string>
+    <string name="doc_capture_instructions_subtitle_eidc_front">Take a picture of the front of your electronic id card</string>
+    <string name="doc_capture_instructions_subtitle_eidc_back">Take a picture of the back of your electronic id card</string>
+    <string name="doc_capture_instructions_title_pidc_inside">Internal side of your paper id card</string>
+    <string name="doc_capture_instructions_title_pidc_cover">Cover side of your paper id card</string>
+    <string name="doc_capture_instructions_subtitle_pidc_inside">Take a picture of the internal side of your paper id card</string>
+    <string name="doc_capture_instructions_subtitle_pidc_cover">Take a picture of the cover side of your paper id card</string>
+    <string name="doc_capture_instructions_title_passport_inside">Internal side of your passport</string>
+    <string name="doc_capture_instructions_subtitle_passport_inside">Take a picture of the internal side of your passport"</string>
+    <string name="doc_capture_instructions_title_dlc_front">Front of your driving licence</string>
+    <string name="doc_capture_instructions_title_dlc_back">Back of your driving licence</string>
+    <string name="doc_capture_instructions_subtitle_dlc_front">Take a picture of the front of your driving licence</string>
+    <string name="doc_capture_instructions_subtitle_dlc_back">Take a picture of the back of your driving licence</string>
+    <string name="doc_capture_instructions_title_hic_front">Front of your health insurance card</string>
+    <string name="doc_capture_instructions_title_hic_back">Back of your health insurance card</string>
+    <string name="doc_capture_instructions_subtitle_hic_front">Take a picture of the front of your health insurance card</string>
+    <string name="doc_capture_instructions_subtitle_hic_back">Take a picture of the back of your health insurance card</string>
+    <string name="doc_capture_instructions_title_rpc_front">Front of your residence permit card</string>
+    <string name="doc_capture_instructions_subtitle_rpc_front">Take a picture of the front of your residence permit card</string>
+    <string name="doc_capture_instructions_button_accept">Ok</string>
+
+    <!-- camera activity -->
+    <string name="doc_capture_camera_title_eidc_front">Front of your electronic id card</string>
+    <string name="doc_capture_camera_title_eidc_back">Back of your electronic id card</string>
+    <string name="doc_capture_camera_subtitle_eidc_front">Take a picture of the front of your electronic id card</string>
+    <string name="doc_capture_camera_subtitle_eidc_back">Take a picture of the back of your electronic id card</string>
+    <string name="doc_capture_camera_title_pidc_inside">Internal side of your paper id card</string>
+    <string name="doc_capture_camera_title_pidc_cover">Cover side of your paper id card</string>
+    <string name="doc_capture_camera_subtitle_pidc_inside">Take a picture of the internal side of your paper id card</string>
+    <string name="doc_capture_camera_subtitle_pidc_cover">Take a picture of the cover side of your paper id card</string>
+    <string name="doc_capture_camera_title_passport_inside">Internal side of your passport</string>
+    <string name="doc_capture_camera_title_passport_cover">External side of your passport</string>
+    <string name="doc_capture_camera_subtitle_passport_inside">Take a picture of the internal side of your passport"</string>
+    <string name="doc_capture_camera_subtitle_passport_cover">Take a picture of the external side of your passport"</string>
+    <string name="doc_capture_camera_title_dlc_front">Front of your driving licence</string>
+    <string name="doc_capture_camera_title_dlc_back">Back of your driving licence</string>
+    <string name="doc_capture_camera_subtitle_dlc_front">Take a picture of the front of your driving licence</string>
+    <string name="doc_capture_camera_subtitle_dlc_back">Take a picture of the back of your driving licence</string>
+    <string name="doc_capture_camera_title_hic_front">Front of your health insurance card</string>
+    <string name="doc_capture_camera_title_hic_back">Back of your health insurance card</string>
+    <string name="doc_capture_camera_subtitle_hic_front">Take a picture of the front of your health insurance card</string>
+    <string name="doc_capture_camera_subtitle_hic_back">Take a picture of the back of your health insurance card</string>
+    <string name="doc_capture_camera_title_rpc_front">Front of your residence permit card</string>
+    <string name="doc_capture_camera_title_rpc_back">Back of your residence permit card</string>
+    <string name="doc_capture_camera_subtitle_rpc_front">Take a picture of the front of your residence permit card</string>
+    <string name="doc_capture_camera_subtitle_rpc_back">Take a picture of the back of your residence permit card</string>
+    <string name="doc_capture_camera_toast_unsupported_flash">Flash is not supported</string>
+    <string name="doc_capture_camera_button_shutter">Take a picture</string>
+
+    <string name="doc_capture_fade_in">Document Front</string>
+    <string name="doc_capture_fade_out">Document Back</string>
+
+    <!-- dialog messages -->
+    <string name="doc_capture_dialog_exit_title">Exit from the application?</string>
+    <string name="doc_capture_dialog_exit_subtitle">You are about to exit the application</string>
+    <string name="doc_capture_dialog_exit_yes">Yes</string>
+    <string name="doc_capture_dialog_exit_no">No</string>
+    <string name="doc_capture_dialog_exit_message">Cancel all operations and exit?</string>
+
+    <string name="doc_capture_memory_alert_title">Out Of Memory</string>
+    <string name="doc_capture_memory_alert_message">Your device does not have enough memory to perform the document doc-docCapture operation</string>
+    <string name="doc_capture_memory_alert_ok">Ok</string>
+
+    <string name="doc_capture_camera_toast_document_detection">Use a background that contrasts with the document</string>
+
+</resources>

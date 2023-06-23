@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="doc_capture_white">#FFFFFF</color>
+    <color name="doc_capture_transparent">#00000000</color>
+    <color name="doc_capture_red">#FF0000</color>
+    <color name="doc_capture_green">#00FF00</color>
+    <color name="doc_capture_black">#000000</color>
+
+    <color name="doc_capture_colorPrimary">#0072a5</color>
+    <color name="doc_capture_colorPrimaryDark">#FF092342</color>
+    <color name="doc_capture_colorAccent">#00B0FF</color>
+
+    <!-- default color-->
+    <color name="doc_capture_background">@color/doc_capture_transparent</color>
+    <color name="doc_capture_text">@color/doc_capture_black</color>
+
+    <!-- selection view -->
+    <color name="doc_capture_selection_background">@color/doc_capture_transparent</color>
+    <color name="doc_capture_selection_title">@color/doc_capture_black</color>
+    <color name="doc_capture_selection_doc_choose">@color/doc_capture_black</color>
+    <color name="doc_capture_selection_radio_button">@color/doc_capture_black</color>
+    <color name="doc_capture_selection_button_accept">@color/doc_capture_transparent</color>
+    <color name="doc_capture_selection_button_accept_text">@color/doc_capture_black</color>
+    <color name="doc_capture_selection_buttons_back_exit">@color/doc_capture_black</color>
+    <color name="doc_capture_selection_title_nations">@color/doc_capture_black</color>
+    <color name="doc_capture_selection_title_documents">@color/doc_capture_black</color>
+    <color name="doc_capture_selection_spinner_text_documents">@color/doc_capture_black</color>
+    <color name="doc_capture_selection_spinner_text_nations">@color/doc_capture_black</color>
+    <color name="doc_capture_selection_spinner_background">@color/doc_capture_white</color>
+    <color name="doc_capture_selection_spinner_border">@color/doc_capture_black</color>
+    <color name="doc_capture_selection_spinner_arrow_drop_down">@color/doc_capture_black</color>
+
+    <!-- instructions view -->
+    <color name="doc_capture_instructions_title">@color/doc_capture_black</color>
+    <color name="doc_capture_instructions_background">@color/doc_capture_transparent</color>
+    <color name="doc_capture_instructions_button_accept">@color/doc_capture_transparent</color>
+    <color name="doc_capture_instructions_button_accept_text">@color/doc_capture_black</color>
+    <color name="doc_capture_instructions_buttons_back_exit">@color/doc_capture_black</color>
+
+    <!-- camera view -->
+    <color name="doc_capture_camera_title">@color/doc_capture_white</color>
+    <color name="doc_capture_camera_subtitle">@color/doc_capture_white</color>
+    <color name="doc_capture_camera_button_shutter">@color/doc_capture_white</color>
+    <color name="doc_capture_camera_button_flash">@color/doc_capture_white</color>
+    <color name="doc_capture_camera_buttons_back_exit">@color/doc_capture_white</color>
+    <color name="doc_capture_camera_autoshoot_countdown_counter">@color/doc_capture_white</color>
+    <color name="doc_capture_camera_detector_outline_found">@color/doc_capture_green</color>
+    <color name="doc_capture_camera_detector_outline_not_found">@color/doc_capture_red</color>
+    <color name="doc_capture_camera_button_shutter_text">@color/doc_capture_black</color>
+
+
+    <!-- check view -->
+    <color name="doc_capture_check_background">@color/doc_capture_transparent</color>
+    <color name="doc_capture_check_modal_background">@color/doc_capture_white</color>
+    <color name="doc_capture_check_title">@color/doc_capture_black</color>
+    <color name="doc_capture_check_subtitle">@color/doc_capture_black</color>
+    <color name="doc_capture_check_rotate_title">@color/doc_capture_black</color>
+    <color name="doc_capture_check_rotate_subtitle">@color/doc_capture_black</color>
+    <color name="doc_capture_check_button_accept">@color/doc_capture_transparent</color>
+    <color name="doc_capture_check_button_accept_text">@color/doc_capture_black</color>
+    <color name="doc_capture_check_button_discard">@color/doc_capture_transparent</color>
+    <color name="doc_capture_check_button_discard_text">@color/doc_capture_black</color>
+    <color name="doc_capture_check_buttons_back_exit">@color/doc_capture_black</color>
+    <color name="doc_capture_check_button_rotate">@color/doc_capture_transparent</color>
+    <color name="doc_capture_check_button_accept_rotate">@color/doc_capture_transparent</color>
+    <color name="doc_capture_check_button_discard_rotate">@color/doc_capture_transparent</color>
+    <color name="doc_capture_check_button_rotate_text">@color/doc_capture_black</color>
+    <color name="doc_capture_check_button_accept_rotate_text">@color/doc_capture_black</color>
+
+    <!-- photo zoom view -->
+    <color name="doc_capture_photozoom_background">@color/doc_capture_black</color>
+    <color name="doc_capture_photozoom_back_button">@color/doc_capture_white</color>
+
+
+    <!-- dialog -->
+    <color name="doc_capture_dialog_background">@color/doc_capture_black</color>
+    <color name="doc_capture_dialog_title">@color/doc_capture_white</color>
+    <color name="doc_capture_dialog_subtitle">@color/doc_capture_white</color>
+    <color name="doc_capture_dialog_message">@color/doc_capture_white</color>
+    <color name="doc_capture_dialog_button_text">@color/doc_capture_white</color>
+    <color name="doc_capture_dialog_button">@color/doc_capture_transparent</color>
+    <color name="doc_capture_dialog_button_accept">@color/doc_capture_transparent</color>
+    <color name="doc_capture_dialog_button_discard">@color/doc_capture_transparent</color>
+    <color name="doc_capture_dialog_button_accept_text">@color/doc_capture_white</color>
+    <color name="doc_capture_dialog_button_discard_text">@color/doc_capture_white</color>
+</resources>

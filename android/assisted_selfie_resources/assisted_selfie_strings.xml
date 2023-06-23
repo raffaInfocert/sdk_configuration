@@ -1,0 +1,87 @@
+<resources>
+   
+    <!-- main -->
+    <string name="assisted_selfie_main_custom_dialog_message">Assisted Selfie</string>
+    <string name="assisted_selfie_toast_vibrator_error">Ok!</string>
+    <string name="assisted_selfie_dialog_exit_message">Cancel all operations and exit?</string>
+    <string name="assisted_selfie_dialog_exit_yes">Yes</string>
+    <string name="assisted_selfie_dialog_exit_no">No</string>
+
+    <!-- start view -->
+    <string name="assisted_selfie_start_processing">Processing…</string>
+    <string name="assisted_selfie_start_title">Press Start button to start the Liveness procedure</string>
+    <string name="assisted_selfie_start_subtitle">Take a close-up that portrays you in a clear and recognizable way</string>
+    <string name="assisted_selfie_start_button">Start</string>
+
+    <!-- take selfie view -->
+    <string name="assisted_selfie_photo_alert_not_inside_oval">The face is not inside the oval</string>
+    <string name="assisted_selfie_photo_alert_not_aligned">Face not aligned</string>
+    <string name="assisted_selfie_photo_alert_too_far">Too far</string>
+    <string name="assisted_selfie_photo_alert_too_close">Too close</string>
+    <string name="assisted_selfie_photo_alert_no_action_timer_title">Warning</string>
+    <string name="assisted_selfie_photo_alert_no_action_timer_message">Make sure your face is inside the oval and the light conditions are good</string>
+    <string name="assisted_selfie_photo_alert_no_action_timer_ok">Ok</string>
+    <string name="assisted_selfie_photo_alert_multiple_faces_detected">Too many faces detected. Make sure there are no other faces nearby</string>
+
+    <string name="assisted_selfie_photo_countdown_counter_singular"> second</string>
+    <string name="assisted_selfie_photo_countdown_counter_plural"> seconds</string>
+    <string name="assisted_selfie_photo_taken">Shooting…</string>
+    <string name="assisted_selfie_photo_countdown_title">Take photo in: </string>
+
+    <!-- livenessGms -->
+    <string name="assisted_selfie_liveness_subtitle_turn_left">Turn slowly your head to the left until you don&#180; tfeel the vibration of the device, then return to the starting position</string>
+    <string name="assisted_selfie_liveness_title_turn_left">Turn left</string>
+    <string name="assisted_selfie_liveness_subtitle_turn_right">Turn slowly your head to the right until you don&#180; tfeel the vibration of the device, then return to the starting position</string>
+    <string name="assisted_selfie_liveness_title_turn_right">Turn right</string>
+    <string name="assisted_selfie_liveness_subtitle_tilt_left">Tilt slowly your head to the left until you don&#180;tfeel the vibration of the device, then return to the starting position</string>
+    <string name="assisted_selfie_liveness_title_tilt_left">Tilt left</string>
+    <string name="assisted_selfie_liveness_subtitle_tilt_right">Tilt slowly your head to the right until you don&#180;tfeel the vibration of the device, then return to the starting position</string>
+    <string name="assisted_selfie_liveness_title_tilt_right">Tilt right</string>
+    <string name="assisted_selfie_liveness_subtitle_close_eyes">Look straight at the device camera, close your eyes slowly until you don&#180;t feel the vibration of the device, then reopen them</string>
+    <string name="assisted_selfie_liveness_title_close_eyes">Close eyes</string>
+    <string name="assisted_selfie_liveness_subtitle_smile">Look straight at the device camera and slowly make a smile until you don&#180;t feel the vibration of the device</string>
+    <string name="assisted_selfie_liveness_title_smile">Smile</string>
+    <string name="assisted_selfie_liveness_title_intra_step">Well Done… Step Passed!</string>
+    <string name="assisted_selfie_liveness_subtitle_intra_step">Wait for the next step…</string>
+    <string name="assisted_selfie_liveness_title_tilt_up">Tilt Up</string>
+    <string name="assisted_selfie_liveness_subtitle_tilt_up">Tilt slowly your head to the up until you don&#180;tfeel the vibration of the device, then return to the starting position</string>
+    <string name="assisted_selfie_liveness_title_tilt_down">Tilt Down</string>
+    <string name="assisted_selfie_liveness_subtitle_tilt_down">Tilt slowly your head to the down until you don&#180;tfeel the vibration of the device, then return to the starting position</string>
+
+    <!-- check view -->
+    <string name="assisted_selfie_check_title">The photo must be clear</string>
+    <string name="assisted_selfie_check_subtitle">The photo must be clear and not contain multiple faces or paintings that portray faces</string>
+    <string name="assisted_selfie_check_button_accept">THE PHOTO IS VISIBLE</string>
+    <string name="assisted_selfie_check_button_discard">Retake Photo</string>
+
+    <!-- internal check view -->
+    <string name="assisted_selfie_internal_check_button_discard">Retake Photo</string>
+
+    <!-- Error code title -->
+    <string name="assisted_selfie_internal_check_title_error_no_face">Error, no face in taken selfie</string>
+    <string name="assisted_selfie_internal_check_title_error_multiple_faces">Error, more than a face in selfie</string>
+    <string name="assisted_selfie_internal_check_title_error_face_not_aligned">Error, face not aligned</string>
+    <string name="assisted_selfie_internal_check_title_error_too_smiling_face">Error, too smiling face</string>
+    <string name="assisted_selfie_internal_check_title_error_eyes_zone_too_dark">Error, eyes zone too dark</string>
+    <string name="assisted_selfie_internal_check_title_error_on_eyes">Error on selfie, one or more eye closed or not reachable</string>
+    <string name="assisted_selfie_internal_check_title_error_on_face_landmark">Error on selfie, one or more face landmark not reachable</string>
+    <string name="assisted_selfie_internal_check_title_error_on_sunglasses_detection">Error on sunglasses detection</string>
+    <string name="assisted_selfie_internal_check_title_error_selfie_not_valid">Error on Selfie</string>
+    <string name="assisted_selfie_internal_check_title_error_selfie_hands">Hands found in the selfie</string>
+    <string name="assisted_selfie_internal_check_title_error_selfie_mouth">Mouth covered</string>
+
+    <!-- Error code subtitle -->
+    <string name="assisted_selfie_internal_check_subtitle_error_no_face">Error, no face in taken selfie</string>
+    <string name="assisted_selfie_internal_check_subtitle_error_multiple_faces">Error, more than a face in selfie</string>
+    <string name="assisted_selfie_internal_check_subtitle_error_face_not_aligned">Error, face not aligned</string>
+    <string name="assisted_selfie_internal_check_subtitle_error_too_smiling_face">Error, too smiling face</string>
+    <string name="assisted_selfie_internal_check_subtitle_error_eyes_zone_too_dark">Error, eyes zone too dark</string>
+    <string name="assisted_selfie_internal_check_subtitle_error_on_eyes">Error on selfie, one or more eye closed or not reachable</string>
+    <string name="assisted_selfie_internal_check_subtitle_error_on_face_landmark">Error on selfie, one or more face landmark not reachable</string>
+    <string name="assisted_selfie_internal_check_subtitle_error_on_sunglasses_detection">Error on sunglasses detection</string>
+    <string name="assisted_selfie_internal_check_subtitle_error_selfie_not_valid">There is an error on Selfie. Retake it!</string>
+    <string name="assisted_selfie_internal_check_subtitle_error_selfie_hands">The face must be clearly visible</string>
+    <string name="assisted_selfie_internal_check_subtitle_error_selfie_mouth">The mouth must not be covered</string>
+
+
+</resources>

@@ -1,0 +1,37 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- selection view -->
+    <string name="doc_capture_selection_button_accept_width">0.9</string>
+    <dimen name="doc_capture_selection_button_selection_corner_radius">15dp</dimen>
+    <dimen name="doc_capture_selection_title">18sp</dimen>
+    <dimen name="doc_capture_selection_doc_choose">16sp</dimen>
+    <dimen name="doc_capture_selection_button_accept_text">17sp</dimen>
+    <dimen name="doc_capture_selection_spinner_corner_radius">5dp</dimen>
+    <dimen name="doc_capture_selection_spinner_border">1dp</dimen>
+    <dimen name="doc_capture_selection_spinner_text">16sp</dimen>
+    <dimen name="doc_capture_selection_title_nations_documents">16sp</dimen>
+
+    <!-- instructions view -->
+    <dimen name="doc_capture_instructions_button_corner_radius">15dp</dimen>
+    <string name="doc_capture_instructions_button_accept_width">0.3</string>
+    <dimen name="doc_capture_instructions_button_accept_text">17sp</dimen>
+    <dimen name="doc_capture_instructions_title">18sp</dimen>
+    <dimen name="doc_capture_camera_button_shutter_corner_radius">5dp</dimen>
+    <string name="doc_capture_camera_button_shutter_width">0.3</string>
+    <string name="doc_capture_camera_alternative_layout_heigth">0.6</string>
+
+    <!-- Camera View -->
+    <dimen name="doc_capture_camera_title">18sp</dimen>
+    <dimen name="doc_capture_camera_subtitle">16sp</dimen>
+
+    <!-- check view -->
+    <string name="doc_capture_check_button_accept_width">0.9</string>
+    <string name="doc_capture_check_button_discard_width">0.9</string>
+    <dimen name="doc_capture_check_modal_corner_radius">40dp</dimen>
+    <dimen name="doc_capture_check_title">18sp</dimen>
+    <dimen name="doc_capture_check_subtitle">16sp</dimen>
+    <dimen name="doc_capture_check_button_accept_text">17sp</dimen>
+    <dimen name="doc_capture_check_button_discard_text">17sp</dimen>
+    <dimen name="doc_capture_check_button_corner_radius">15dp</dimen>
+
+</resources>

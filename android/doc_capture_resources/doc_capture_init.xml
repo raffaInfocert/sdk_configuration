@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <bool name="doc_capture_custom_dialog_enable">true</bool>
+    <bool name="doc_capture_back_button_enable">true</bool>
+    <bool name="doc_capture_exit_button_enable">true</bool>
+</resources>

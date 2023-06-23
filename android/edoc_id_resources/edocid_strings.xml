@@ -1,0 +1,101 @@
+<resources>
+
+    <string name="edocid_app_name">infocert eDocID</string>
+
+
+    <!-- take data view -->
+    <string name="edocid_take_data_subtitle">Press Ok for start document search</string>
+    <string name="edocid_take_data_title">Check the data</string>
+    <string name="edocid_take_data_doc_number">Document number</string>
+    <string name="edocid_take_data_expiration_date">Expiration date</string>
+    <string name="edocid_take_data_date_of_birth">Date of birth</string>
+    <string name="edocid_take_data_button_accept">Ok</string>
+    <string name="edocid_take_data_toast_empty_field">Fill all fields!</string>
+
+    <!-- recap data view -->
+    <string name="edocid_recap_data_form_title">Confirm data</string>
+    <string name="edocid_recap_data_form_subtitle">Check and fill in the missing information</string>
+    <string name="edocid_recap_data_form_personal_info_label">Personal Information</string>
+    <string name="edocid_recap_data_form_additional_info_label">Residential address</string>
+    <string name="edocid_recap_data_form_document_label">Details of the document</string>
+    <string name="edocid_recap_data_form_hint_name">Name</string>
+    <string name="edocid_recap_data_form_hint_surname">Surname</string>
+    <string name="edocid_recap_data_form_hint_place_of_birth">Place of birth</string>
+    <string name="edocid_recap_data_form_hint_date_of_birth">Date of birth</string>
+    <string name="edocid_recap_data_form_hint_sex">Sex</string>
+    <string name="edocid_recap_data_form_hint_nationality">Nationality</string>
+    <string name="edocid_recap_data_form_hint_personal_number">Personal number</string>
+    <string name="edocid_recap_data_form_hint_address">Address</string>
+    <string name="edocid_recap_data_form_hint_city">City</string>
+    <string name="edocid_recap_data_form_hint_doc_number">Document number</string>
+    <string name="edocid_recap_data_form_hint_expiration_date">Expiration date</string>
+    <string name="edocid_recap_data_form_hint_issuing_date">Issuing date</string>
+    <string name="edocid_recap_data_form_hint_issuing_state">Issuing state</string>
+    <string name="edocid_recap_data_form_hint_issuing_authority">Issuing authority</string>
+    <string name="edocid_recap_data_form_hint_nis">NIS</string>
+    <string name="edocid_recap_data_form_button_accept">Confirm</string>
+    <string name="edocid_recap_data_form_empty_field">Enter the tax code</string>
+
+
+    <!-- search view -->
+    <string name="edocid_nfc_waiting_top_title">Ready to Scan!</string>
+    <string name="edocid_nfc_waiting_title">Place device on top of the document</string>
+    <string name="edocid_nfc_waiting_message">Waiting for acquire document…</string>
+
+
+    <!-- eDocID perform data -->
+    <string name="edocid_nfc_reading_chip">Chip access</string>
+    <string name="edocid_nfc_reading_chip_info">Chip access\nNow you can move the document away from Device</string>
+    <string name="edocid_nfc_reading_personal_info">Extract personal info</string>
+    <string name="edocid_nfc_reading_photo">Extract holder photo</string>
+    <string name="edocid_nfc_reading_chip_check_security">Check security</string>
+    <string name="edocid_nfc_reading_chip_check_validity">Check validity</string>
+    <string name="edocid_nfc_reading_title">Do not move the document</string>
+    <string name="edocid_nfc_reading_message">Reading Data…</string>
+    <string name="edocid_nfc_reading_top_title">Document Found!</string>
+
+
+    <!-- DIALOG STRINGS-->
+    <string name="edoicd_dialog_nfc_disabled_message">You must enable NFC for read the document</string>
+    <string name="edoicd_dialog_error_read_data">Error while scanning the document.\nDo you want to enter the data manually?</string>
+    <string name="edocid_dialog_nfc_disabled_title">NFC is disable!</string>
+    <string name="edocid_dialog_nfc_disabled_message">The application needs the NFC to be active. Enable NFC from settings</string>
+    <string name="edocid_dialog_nfc_disabled_yes">Ok</string>
+    <string name="edocid_dialog_nfc_disabled_no">Cancel</string>
+
+    <!-- DIALOG EXIT -->
+    <string name="edocid_dialog_exit_message">All operations will be canceled</string>
+    <string name="edocid_dialog_exit_title">Close the application?</string>
+    <string name="edocid_dialog_exit_yes">Yes</string>
+    <string name="edocid_dialog_exit_no">No</string>
+
+    <!-- DIALOG NO DETECTION MRZ -->
+    <string name="edocid_dialog_mrz_no_detection_title">Can not detect MRZ</string>
+    <string name="edocid_dialog_mrz_no_detection_message">Make sure the room is well lit or the document is positioned correctly!</string>
+    <string name="edocid_dialog_mrz_no_detection_retry">Try again</string>
+    <string name="edocid_dialog_mrz_no_detection_insert_manually">Insert data manually</string>
+    <string name="edocid_dialog_mrz_no_detection_exit">Try Again</string>
+
+    <!-- DIALOG AUTH ERROR -->
+    <string name="edocid_dialog_authentication_error_title">Authentication Error!</string>
+    <string name="edocid_dialog_authentication_error_message">Check Credentials and try again</string>
+    <string name="edocid_dialog_authentication_error_edit_data">Check Data</string>
+    <string name="edocid_dialog_authentication_error_exit">Exit</string>
+
+    <!-- DIALOG CONNECTION LOST -->
+    <string name="edocid_dialog_connection_lost_title">Connection Lost!</string>
+    <string name="edocid_dialog_connection_lost_message">Move the document closer to the device and do not move it until the app are finished reading</string>
+    <string name="edocid_dialog_connection_lost_exit">Exit</string>
+    <string name="edocid_dialog_connection_lost_retry">Try Again</string>
+
+
+    <!--TOAST STRINGS-->
+    <string name="edocid_toast_invalid_document">Invalid document!</string>
+    <string name="edocid_toast_no_document_found">No document found!</string>
+    <string name="edocid_toast_scan_canceled">Scan canceled!</string>
+    <string name="edocid_toast_scan_finish_errors">Finish with errors!</string>
+    <string name="edocid_toast_scan_finish">Finish!</string>
+    <string name="edocid_toast_scan_detected">eDocument detected!</string>
+    <string name="edocid_toast_scan_doc_finish">Now you can move the Document away from Device</string>
+
+</resources>

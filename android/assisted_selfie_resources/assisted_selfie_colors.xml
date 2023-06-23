@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Default colors -->
+    <color name="assisted_selfie_text">@color/assisted_selfie_white</color>
+    <color name="assisted_selfie_button_background">@color/assisted_selfie_transparent</color>
+
+    <!-- Pre selfie -->
+    <color name="assisted_selfie_start_title">@color/assisted_selfie_white</color>
+    <color name="assisted_selfie_start_subtitle">@color/assisted_selfie_white</color>
+    <color name="assisted_selfie_start_button">@color/assisted_selfie_transparent</color>
+    <color name="assisted_selfie_start_button_text">@color/assisted_selfie_white</color>
+    <color name="assisted_selfie_buttons_back_exit">@color/assisted_selfie_white</color>
+
+    <!-- Take selfie -->
+    <color name="assisted_selfie_photo_countdown_title">@color/assisted_selfie_green</color>
+    <color name="assisted_selfie_photo_countdown_counter">@color/assisted_selfie_white</color>
+    <color name="assisted_selfie_photo_warnings">@color/assisted_selfie_red</color>
+    <color name="assisted_selfie_photo_taken">@color/assisted_selfie_white</color>
+
+    <!-- internal check view -->
+
+    <color name="assisted_selfie_internal_check_background">@color/assisted_selfie_white</color>
+    <color name="assisted_selfie_internal_check_modal_background">@color/assisted_selfie_black</color>
+    <color name="assisted_selfie_internal_check_title">@color/assisted_selfie_white</color>
+    <color name="assisted_selfie_internal_check_subtitle">@color/assisted_selfie_white</color>
+    <color name="assisted_selfie_internal_check_button_discard_text">@color/assisted_selfie_white</color>
+    <color name="assisted_selfie_internal_check_button_discard">@color/assisted_selfie_transparent</color>
+    <color name="assisted_selfie_internal_check_buttons_back_exit">@color/assisted_selfie_black</color>
+
+    <!-- Liveness process -->
+    <color name="assisted_selfie_liveness_title">@color/assisted_selfie_white</color>
+    <color name="assisted_selfie_liveness_subtitle">@color/assisted_selfie_white</color>
+    <color name="assisted_selfie_liveness_icon_gesture">@color/assisted_selfie_white</color>
+
+    <color name="assisted_selfie_liveness_title_intra_step">@color/assisted_selfie_white</color>
+    <color name="assisted_selfie_liveness_subtitle_intra_step">@color/assisted_selfie_white</color>
+
+    <!-- process animation background -->
+    <color name="assisted_selfie_process_data_background">@color/assisted_selfie_transparent</color>
+
+    <!-- check view -->
+
+    <color name="assisted_selfie_check_background">@color/assisted_selfie_transparent</color>
+    <color name="assisted_selfie_check_modal_background">@color/assisted_selfie_black</color>
+    <color name="assisted_selfie_check_title">@color/assisted_selfie_white</color>
+    <color name="assisted_selfie_check_subtitle">@color/assisted_selfie_white</color>
+    <color name="assisted_selfie_check_button_accept_text">@color/assisted_selfie_white</color>
+    <color name="assisted_selfie_check_button_accept">@color/assisted_selfie_transparent</color>
+    <color name="assisted_selfie_check_button_discard_text">@color/assisted_selfie_white</color>
+    <color name="assisted_selfie_check_button_discard">@color/assisted_selfie_transparent</color>
+    <color name="assisted_selfie_check_buttons_back_exit">@color/assisted_selfie_black</color>
+
+    <color name="assisted_selfie_photozoom_background">@color/assisted_selfie_black</color>
+    <color name="assisted_selfie_photozoom_back_button">@color/assisted_selfie_white</color>
+
+    <!-- alert dialog -->
+    <color name="assisted_selfie_dialog_background">@color/assisted_selfie_black</color>
+    <color name="assisted_selfie_dialog_title">@color/assisted_selfie_white</color>
+    <color name="assisted_selfie_dialog_message">@color/assisted_selfie_white</color>
+    <color name="assisted_selfie_dialog_button_accept">@color/assisted_selfie_transparent</color>
+    <color name="assisted_selfie_dialog_button_discard">@color/assisted_selfie_transparent</color>
+    <color name="assisted_selfie_dialog_button_discard_text">@color/assisted_selfie_white</color>
+    <color name="assisted_selfie_dialog_button_accept_text">@color/assisted_selfie_white</color>
+
+    <color name="assisted_selfie_border_oval_color_ok">@color/assisted_selfie_green</color>
+    <color name="assisted_selfie_border_oval_color_ko">@color/assisted_selfie_red</color>
+</resources>
