@@ -33,7 +33,7 @@
     <bool name="doc_capture_init_alternative_button_shutter">false</bool>
     <bool name="doc_capture_init_disable_flip_animation">false</bool>
     <bool name="doc_capture_init_precise_crop">false</bool>
-    <string name="doc_capture_init_camera_preview_proportion">16_9</string>
+    <string name="doc_capture_init_camera_proportion">RATIO_16_9</string>
 
 
     //EDocID
