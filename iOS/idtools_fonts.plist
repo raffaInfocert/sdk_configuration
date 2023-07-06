@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>assisted_selfie_font</key>
+	<string>Helvetica</string>
+	<key>assisted_selfie_font_title</key>
+	<string>Helvetica</string>
+	<key>assisted_selfie_font_subtitle</key>
+	<string>Helvetica</string>
+	<key>doc_capture_font</key>
+	<string>Helvetica</string>
+	<key>doc_capture_font_title</key>
+	<string>Helvetica</string>
+	<key>doc_capture_font_subtitle</key>
+	<string>Helvetica</string>
+	<key>edocid_font</key>
+	<string>Helvetica</string>
+	<key>edocid_font_take_data_title</key>
+	<string>Helvetica</string>
+	<key>edocid_font_take_data_subtitle</key>
+	<string>Helvetica</string>
+	<key>edocid_font_take_data_input_field_text</key>
+	<string>Helvetica</string>
+	<key>edocid_font_take_data_input_field_hint</key>
+	<string>Helvetica</string>
+	<key>edocid_font_recap_data_form_title</key>
+	<string>Helvetica</string>
+	<key>edocid_font_recap_data_form_subtitle</key>
+	<string>Helvetica</string>
+	<key>edocid_font_recap_data_form_section</key>
+	<string>Helvetica</string>
+</dict>
+</plist>
