@@ -1,0 +1,8 @@
+assisted_selfie_liveness_processing.json
+assisted_selfie_liveness_blink.json
+assisted_selfie_liveness_smile.json
+assisted_selfie_liveness_tilt_left.json
+assisted_selfie_liveness_tilt_right.json
+assisted_selfie_liveness_turn_left.json
+assisted_selfie_liveness_turn_right.json
+assisted_selfie_liveness_gesture_ok.json
