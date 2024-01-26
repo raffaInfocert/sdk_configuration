@@ -46,6 +46,7 @@
     <integer name="edocid_init_camera_background_transparency">200</integer>
     <integer name="edocid_init_camera_document_overlay_transparency">125</integer>
     <bool name="edocid_init_ignore_mrz">false</bool>
+    <bool name="edocid_init_mandatory_personal_number">true</bool>
 
 
 </resources>
