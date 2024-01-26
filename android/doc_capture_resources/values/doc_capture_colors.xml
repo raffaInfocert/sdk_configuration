@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <color name="disabled_button">#808080</color>
 
     <color name="doc_capture_white">#FFFFFF</color>
     <color name="doc_capture_transparent">#00000000</color>

@@ -1,0 +1,11 @@
+dependencies {
+    implementation('it.infocert.sdk.idtools:idToolsOrchestrator:4.1.0') {
+        exclude group: 'it.infocert.utilities', module: 'infocert-ocr',
+        exclude group: 'org.skyscreamer', module: 'jsonassert',
+        exclude group: 'it.infocert.sdk.idcheck', module: 'jmrtd',
+        exclude group: 'net.sf.scuba', module: 'scuba-sc-android',
+        exclude group: 'com.neovisionaries', module: 'nv-i18n',
+        exclude group: 'edu.ucar', module: 'jj2000',
+        exclude group: 'com.github.mhshams', module: 'jnbis',
+    }
+}

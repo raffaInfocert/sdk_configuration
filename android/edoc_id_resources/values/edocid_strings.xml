@@ -1,8 +1,5 @@
 <resources>
 
-    <string name="edocid_app_name">infocert eDocID</string>
-
-
     <!-- take data view -->
     <string name="edocid_take_data_subtitle">Press Ok for start document search</string>
     <string name="edocid_take_data_title">Check the data</string>
@@ -11,6 +8,11 @@
     <string name="edocid_take_data_date_of_birth">Date of birth</string>
     <string name="edocid_take_data_button_accept">Ok</string>
     <string name="edocid_take_data_toast_empty_field">Fill all fields!</string>
+    <string name="edocid_take_data_toast_date_error">The expiration date cannot be less than the date of birth</string>
+
+    <string name="edocid_instructions_button_accept">Ok</string>
+    <string name="edocid_instructions_title">Position your document as the image</string>
+
 
     <!-- recap data view -->
     <string name="edocid_recap_data_form_title">Confirm data</string>
@@ -97,5 +99,40 @@
     <string name="edocid_toast_scan_finish">Finish!</string>
     <string name="edocid_toast_scan_detected">eDocument detected!</string>
     <string name="edocid_toast_scan_doc_finish">Now you can move the Document away from Device</string>
+    <string name="edocid_toast_no_connection">Device is Offline. Impossible to verify document using external source! Enable connection and try again!</string>
+
+    <string name="edocid_dialog_authentication_error_connection_timeout_title">Authentication
+        Failed!
+    </string>
+    <string name="edocid_dialog_authentication_error_connection_timeout_message">Unfortunately, there was an error with the internet connection.
+        Please make sure you have a stable internet connection and restart the process</string>
+    <string name="edocid_dialog_authentication_error_connection_timeout_exit">Exit</string>
+    <string name="edocid_dialog_authentication_error_connection_timeout_retry">Try Again</string>
+
+    <string name="edocid_dialog_authentication_failed_title">Authentication Failed!</string>
+    <string name="edocid_dialog_authentication_failed_message">Authentication Failed. Restart or terminate process</string>
+    <string name="edocid_dialog_authentication_failed_exit">Exit</string>
+    <string name="edocid_dialog_authentication_failed_retry">Try Again!</string>
+
+    <string name="edocid_dialog_eid_invalid_title">Invalid Document</string>
+    <string name="edocid_dialog_eid_invalid_message">The card is blocked remotely, expired or invalid and cannot be used</string>
+    <string name="edocid_dialog_eid_invalid_exit">Exit</string>
+    <string name="edocid_dialog_eid_invalid_retry">OK</string>
+
+
+    <string name="edocid_dialog_unsupported_device_title">Device not supported</string>
+    <string name="edocid_dialog_unsupported_device_message">This device is not supported, A different device needs to be used</string>
+    <string name="edocid_dialog_unsupported_device_exit">Exit</string>
+    <string name="edocid_dialog_unsupported_device_retry">OK</string>
+
+    <string name="edocid_dialog_card_deactivated_title">Card Deactivated</string>
+    <string name="edocid_dialog_card_deactivated_message">The eID function of the attached card is deactivated and cannot be used. The eID function can be switched on at an office of the authority</string>
+    <string name="edocid_dialog_card_deactivated_exit">Exit</string>
+    <string name="edocid_dialog_card_deactivated_retry">OK</string>
+
+    <string name="edocid_dialog_document_not_allowed_title">Invalid Document</string>
+    <string name="edocid_dialog_document_not_allowed_message">This document cannot be used for this process</string>
+    <string name="edocid_dialog_document_not_allowed_exit">Exit</string>
+    <string name="edocid_dialog_document_not_allowed_retry">OK</string>
 
 </resources>

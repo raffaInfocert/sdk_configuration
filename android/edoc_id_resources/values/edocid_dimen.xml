@@ -11,6 +11,10 @@
     <dimen name="edocid_take_data_input_field_text">16sp</dimen>
     <dimen name="edocid_take_data_input_field_corner_radius">5dp</dimen>
 
+    <dimen name="edocid_instructions_title">25sp</dimen>
+    <string name="edocid_instructions_button_accept_width">0.9</string>
+    <dimen name="edocid_instructions_button_accept_corner_radius">15dp</dimen>
+
     <!-- nfc waiting -->
     <dimen name="edocid_nfc_waiting_reading_top_title">20sp</dimen>
     <dimen name="edocid_nfc_waiting_reading_title">20sp</dimen>

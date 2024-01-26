@@ -1,0 +1,8 @@
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/assisted_selfie_start_flow_rounded_button_enable"
+        android:state_enabled="true" />
+    <item android:drawable="@drawable/assisted_selfie_start_flow_rounded_button_disable"
+        android:state_enabled="false" />
+    <!-- default state-->
+    <item android:drawable="@drawable/assisted_selfie_start_flow_rounded_button_enable" />
+</selector>

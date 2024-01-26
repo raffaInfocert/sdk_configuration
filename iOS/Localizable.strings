@@ -4,6 +4,9 @@
 "assisted_selfie_liveness_subtitle_tilt_right"="Tilt slowly your head to the right until you don't feel the vibration of the device, then return to the starting position";
 "assisted_selfie_liveness_subtitle_close_eyes"="Look straight at the device camera, close your eyes slowly until you don't feel the vibration of the device, then reopen them";
 "assisted_selfie_liveness_subtitle_smile"="Look straight at the device camera and slowly make a smile until you don't feel the vibration of the device";
+"assisted_selfie_liveness_subtitle_look_up"="Tilt slowly your head to the up until you don'tfeel the vibration of the device, then return to the starting position";
+"assisted_selfie_liveness_subtitle_look_down"="Tilt slowly your head to the down until you don'tfeel the vibration of the device, then return to the starting position";
+"assisted_selfie_liveness_subtitle_kiss"="Kiss";
 "assisted_selfie_liveness_subtitle_intra_step"="Wait for the next step…";
 "assisted_selfie_liveness_title_turn_left"="Turn left";
 "assisted_selfie_liveness_title_turn_right"="Turn right";
@@ -11,6 +14,9 @@
 "assisted_selfie_liveness_title_tilt_right"="Tilt right";
 "assisted_selfie_liveness_title_close_eyes"="Close eyes";
 "assisted_selfie_liveness_title_smile"="Smile";
+"assisted_selfie_liveness_title_look_up"="Look up";
+"assisted_selfie_liveness_title_look_down"="Look down";
+"assisted_selfie_liveness_title_kiss"="Kiss";
 "assisted_selfie_liveness_title_intra_step"="Well Done… Step Passed!";
 "assisted_selfie_photo_processing"="";
 "assisted_selfie_photo_alert_multiple_faces_detected"="More than a face in photo!";
@@ -127,6 +133,8 @@
 "doc_capture_instructions_title_rpc_back"="Back of your residence permit card";
 "doc_capture_instructions_subtitle_rpc_back"="Take a picture of the back of your residence permit card";
 "doc_capture_instructions_button_accept"="<b>OK</b>";
+"edocid_instructions_title"="Position your document as the image";
+"edocid_instructions_button_accept"="OK";
 "edocid_take_data_title"="Check the data";
 "edocid_take_data_subtitle"="Press OK to start reading";
 "edocid_take_data_doc_number"="Document number";

@@ -1,134 +1,216 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
-<plist version="1.0">
-<dict>
-	<key>edocid_default</key>
-	<real>17.0</real>
-	<key>edocid_take_data_title</key>
-	<real>24.0</real>
-	<key>edocid_take_data_subtitle</key>
-	<real>18.0</real>
-	<key>edocid_take_data_input_field_hint</key>
-	<real>17.0</real>
-	<key>edocid_take_data_input_field_text</key>
-	<real>15.0</real>
-	<key>edocid_take_data_input_field_border</key>
-	<real>0.5</real>
-	<key>edocid_take_data_input_field_corner_radius</key>
-	<real>5.0</real>
-	<key>edocid_take_data_button_accept_corner_radius</key>
-	<real>15.0</real>
-	<key>edocid_take_data_button_accept_text</key>
-	<real>17.0</real>
-	<key>edocid_take_data_button_accept_width</key>
-	<real>0.893</real>
-	<key>edocid_recap_data_form_title</key>
-	<real>18.0</real>
-	<key>edocid_recap_data_form_subtitle</key>
-	<real>14.0</real>
-	<key>edocid_recap_data_form_section_text</key>
-	<real>17.0</real>
-	<key>edocid_recap_data_form_input_field_text</key>
-	<real>17.0</real>
-	<key>edocid_recap_data_form_input_field_hint</key>
-	<real>11.0</real>
-	<key>edocid_recap_data_form_input_field_corner_radius</key>
-	<real>5.0</real>
-	<key>edocid_recap_data_form_input_field_border</key>
-	<real>0.5</real>
-	<key>edocid_recap_data_form_button_accept_corner_radius</key>
-	<real>15.0</real>
-	<key>edocid_recap_data_form_button_accept_text</key>
-	<real>17.0</real>
-	<key>edocid_recap_data_form_button_accept_width</key>
-	<real>0.9</real>
-	<key>doc_capture_default</key>
-	<real>17.0</real>
-	<key>doc_capture_selection_title</key>
-	<real>20.0</real>
-	<key>doc_capture_selection_button_accept_corner_radius</key>
-	<real>15.0</real>
-	<key>doc_capture_selection_button_accept_text</key>
-	<real>17.0</real>
-	<key>doc_capture_selection_button_accept_width</key>
-	<real>0.9</real>
-	<key>doc_capture_instructions_title</key>
-	<real>20.0</real>
-	<key>doc_capture_instructions_button_accept_corner_radius</key>
-	<real>15.0</real>
-	<key>doc_capture_instructions_button_accept_text</key>
-	<real>17.0</real>
-	<key>doc_capture_instructions_button_accept_width</key>
-	<real>0.9</real>
-	<key>doc_capture_camera_title</key>
-	<real>18.0</real>
-	<key>doc_capture_camera_subtitle</key>
-	<real>16.0</real>
-	<key>doc_capture_camera_button_shutter_width</key>
-	<real>0.5</real>
-	<key>doc_capture_camera_button_shutter_corner_radius</key>
-	<real>15.0</real>
-	<key>doc_capture_camera_alternative_layout_height</key>
-	<real>0.5</real>
-	<key>doc_capture_check_title</key>
-	<real>24.0</real>
-	<key>doc_capture_check_subtitle</key>
-	<real>15.0</real>
-	<key>doc_capture_check_button_accept_text</key>
-	<real>17.0</real>
-	<key>doc_capture_check_button_discard_text</key>
-	<real>17.0</real>
-	<key>doc_capture_check_button_accept_width</key>
-	<real>0.9</real>
-	<key>doc_capture_check_button_discard_width</key>
-	<real>0.9</real>
-	<key>doc_capture_check_button_accept_corner_radius</key>
-	<real>15.0</real>
-	<key>doc_capture_check_button_discard_corner_radius</key>
-	<real>15.0</real>
-	<key>doc_capture_check_modal_corner_radius</key>
-	<real>40.0</real>
-	<key>assisted_selfie_default</key>
-	<real>17.0</real>
-	<key>assisted_selfie_start_title</key>
-	<real>18.0</real>
-	<key>assisted_selfie_start_subtitle</key>
-	<real>16.0</real>
-	<key>assisted_selfie_start_button_width</key>
-	<real>0.9</real>
-	<key>assisted_selfie_start_button_text</key>
-	<real>17.0</real>
-	<key>assisted_selfie_start_button_corner_radius</key>
-	<real>15.0</real>
-	<key>assisted_selfie_liveness_title</key>
-	<real>18.0</real>
-	<key>assisted_selfie_liveness_subtitle</key>
-	<real>16.0</real>
-	<key>assisted_selfie_photo_title</key>
-	<real>18.0</real>
-	<key>assisted_selfie_photo_subtitle</key>
-	<real>16.0</real>
-	<key>assisted_selfie_check_title</key>
-	<real>24.0</real>
-	<key>assisted_selfie_check_subtitle</key>
-	<real>15.0</real>
-	<key>assisted_selfie_check_button_accept_text</key>
-	<real>17.0</real>
-	<key>assisted_selfie_check_button_discard_text</key>
-	<real>17.0</real>
-	<key>assisted_selfie_check_button_accept_width</key>
-	<real>0.9</real>
-	<key>assisted_selfie_check_button_discard_width</key>
-	<real>0.9</real>
-	<key>assisted_selfie_check_button_accept_corner_radius</key>
-	<real>15.0</real>
-	<key>assisted_selfie_check_button_discard_corner_radius</key>
-	<real>15.0</real>
-	<key>assisted_selfie_check_modal_corner_radius</key>
-	<real>40.0</real>
-	<key>assisted_selfie_oval_width</key>
-	<real>0.8</real>
-	<key>assisted_selfie_oval_aspect_ratio</key>
-	<real>1.33</real>
-</dict>
-</plist>
+"assisted_selfie_liveness_subtitle_turn_left"="Turn slowly your head to the left until you don't feel the vibration of the device, then return to the starting position";
+"assisted_selfie_liveness_subtitle_turn_right"="Turn slowly your head to the right until you don't feel the vibration of the device, then return to the starting position";
+"assisted_selfie_liveness_subtitle_tilt_left"="Tilt slowly your head to the left until you don't feel the vibration of the device, then return to the starting position";
+"assisted_selfie_liveness_subtitle_tilt_right"="Tilt slowly your head to the right until you don't feel the vibration of the device, then return to the starting position";
+"assisted_selfie_liveness_subtitle_close_eyes"="Look straight at the device camera, close your eyes slowly until you don't feel the vibration of the device, then reopen them";
+"assisted_selfie_liveness_subtitle_smile"="Look straight at the device camera and slowly make a smile until you don't feel the vibration of the device";
+"assisted_selfie_liveness_subtitle_look_up"="Tilt slowly your head to the up until you don'tfeel the vibration of the device, then return to the starting position";
+"assisted_selfie_liveness_subtitle_look_down"="Tilt slowly your head to the down until you don'tfeel the vibration of the device, then return to the starting position";
+"assisted_selfie_liveness_subtitle_kiss"="Kiss";
+"assisted_selfie_liveness_subtitle_intra_step"="Wait for the next step…";
+"assisted_selfie_liveness_title_turn_left"="Turn left";
+"assisted_selfie_liveness_title_turn_right"="Turn right";
+"assisted_selfie_liveness_title_tilt_left"="Tilt left";
+"assisted_selfie_liveness_title_tilt_right"="Tilt right";
+"assisted_selfie_liveness_title_close_eyes"="Close eyes";
+"assisted_selfie_liveness_title_smile"="Smile";
+"assisted_selfie_liveness_title_look_up"="Look up";
+"assisted_selfie_liveness_title_look_down"="Look down";
+"assisted_selfie_liveness_title_kiss"="Kiss";
+"assisted_selfie_liveness_title_intra_step"="Well Done… Step Passed!";
+"assisted_selfie_photo_processing"="";
+"assisted_selfie_photo_alert_multiple_faces_detected"="More than a face in photo!";
+"assisted_selfie_photo_alert_too_far"="Too far";
+"assisted_selfie_photo_alert_too_close"="Too close";
+"assisted_selfie_photo_countdown_title"="Take photo in...";
+"assisted_selfie_photo_taken"="Taken!";
+"assisted_selfie_photo_alert_not_aligned"="Face not aligned";
+"assisted_selfie_photo_alert_not_inside_oval"="Face not into oval";
+"assisted_selfie_photo_alert_no_action_timer_ok"="OK";
+"assisted_selfie_photo_alert_no_action_timer_title"="Warning";
+"assisted_selfie_photo_alert_no_action_timer_message"="Make sure your face is inside the oval and the light conditions are good";
+"assisted_selfie_start_processing"="Processing";
+"assisted_selfie_start_title"="Take a selfie";
+"assisted_selfie_start_subtitle"="Take a close-up that portrays you in a clear and recognizable way";
+"assisted_selfie_start_button"="<b>START</b>";
+"assisted_selfie_check_button_accept_text"="<b>THE PHOTO IS VISIBLE</b>";
+"assisted_selfie_check_button_discard_text"="Retake Photo";
+"assisted_selfie_check_title"="The photo must be clear";
+"assisted_selfie_check_subtitle"="The photo must be clear and not contain multiple faces or paintings that portray faces";
+"assisted_selfie_internal_check_title_error_generic"="Generic error";
+"assisted_selfie_internal_check_title_error_no_face"="Error, no face found";
+"assisted_selfie_internal_check_title_error_multiple_faces"="Error, multiple faces found";
+"assisted_selfie_internal_check_title_error_face_not_aligned"="Error, face not aligned";
+"assisted_selfie_internal_check_title_error_face_too_smiling"="Error, too smiling face";
+"assisted_selfie_internal_check_title_error_on_left_eye"="Error on right eye";
+"assisted_selfie_internal_check_title_error_on_right_eye"="assisted_selfie_internal_check_title_error_on_right_eye";
+"assisted_selfie_internal_check_title_error_on_face_landmarks"="Error on face's info";
+"assisted_selfie_internal_check_title_error_selfie_not_valid"="Error, try again";
+"assisted_selfie_internal_check_subtitle_error_generic"="Generic error. Try again!";
+"assisted_selfie_internal_check_subtitle_error_no_face"="No face found in taken selfie!";
+"assisted_selfie_internal_check_subtitle_error_multiple_faces"="Multiple faces found in taken selfie!";
+"assisted_selfie_internal_check_subtitle_error_face_not_aligned"="Face, in taken selfie, is not aligned!";
+"assisted_selfie_internal_check_subtitle_error_face_too_smiling"="Face, in taken selfie, is too smiling!";
+"assisted_selfie_internal_check_subtitle_error_on_left_eye"="Left eye is closed or not visible!";
+"assisted_selfie_internal_check_subtitle_error_on_right_eye"="Right eye is closed or not visible!";
+"assisted_selfie_internal_check_subtitle_error_on_face_landmarks"="Some info about face are not visible!";
+"assisted_selfie_internal_check_subtitle_error_selfie_not_valid"="Selfie not valid";
+"assisted_selfie_internal_check_button_discard_text"="Retake Photo";
+"assisted_selfie_internal_check_title_error_selfie_hands"="Hands found in the selfie";
+"assisted_selfie_internal_check_title_error_selfie_mouth"="Mouth covered";
+"assisted_selfie_internal_check_subtitle_error_selfie_hands"="The face must be clearly visible";
+"assisted_selfie_internal_check_subtitle_error_selfie_mouth"="The mouth must be not covered";
+"assisted_selfie_dialog_exit_title"="<b>EXIT</b>";
+"assisted_selfie_dialog_exit_message"="Are you sure?";
+"assisted_selfie_dialog_exit_ok"="<b>OK</b>";
+"assisted_selfie_dialog_exit_cancel"="Cancel";
+"doc_capture_selection_title"="Select document";
+"doc_capture_selection_eidc"="Electronic ID Card";
+"doc_capture_selection_pidc"="Paper ID Card";
+"doc_capture_selection_passport"="Passport";
+"doc_capture_selection_dlc"="Driving Licence";
+"doc_capture_selection_hic"="Health Insurance Card";
+"doc_capture_selection_rpc"="Residence Permit";
+"doc_capture_selection_button_accept"="<b>CONFIRM</b>";
+"doc_capture_check_title"="Check that the picture is clear and legible";
+"doc_capture_check_subtitle"="Make sure the details of your document are all visible";
+"doc_capture_check_title_blurry"="Blurry image detected";
+"doc_capture_check_subtitle_blurry"="You need to take another picture";
+"doc_capture_check_title_glare"="Glare detected";
+"doc_capture_check_subtitle_glare"="You need to take another picture";
+"doc_capture_check_title_blackwhite"="Non-color image detected";
+"doc_capture_check_subtitle_blackwhite"="You need to take another picture";
+"doc_capture_check_button_accept_text"="<b>THE PICTURE IS VISIBLE</b>";
+"doc_capture_check_button_discard_text"="Retake photo";
+"doc_capture_dialog_exit_ok"="<b>OK</b>";
+"doc_capture_dialog_exit_cancel"="Discard";
+"doc_capture_dialog_exit_title"="<b>Info</b>";
+"doc_capture_dialog_exit_message"="Cancel all operations and exit?";
+"doc_capture_camera_title_eidc_front"="Front of your electronic id card";
+"doc_capture_camera_subtitle_eidc_front"="Take a picture of the front of your electronic id card";
+"doc_capture_camera_title_eidc_back"="Back of your electronic id card";
+"doc_capture_camera_subtitle_eidc_back"="Take a picture of the back of your electronic id card";
+"doc_capture_camera_title_pidc_inside"="Internal side of your paper id card";
+"doc_capture_camera_subtitle_pidc_inside"="Take a picture of the internal side of your paper id card";
+"doc_capture_camera_title_pidc_cover"="Cover side of your paper id card";
+"doc_capture_camera_subtitle_pidc_cover"="Take a picture of the cover side of your paper id card";
+"doc_capture_camera_title_passport_inside"="Internal side of your passport";
+"doc_capture_camera_subtitle_passport_inside"="Take a picture of the internal side of your passport";
+"doc_capture_camera_title_dlc_front"="Front of your driving licence";
+"doc_capture_camera_subtitle_dlc_front"="Take a picture of the front of your driving licence";
+"doc_capture_camera_title_dlc_back"="Back of your driving licence";
+"doc_capture_camera_subtitle_dlc_back"="Take a picture of the back of your driving licence";
+"doc_capture_camera_title_hic_front"="Front of your health insurance card";
+"doc_capture_camera_subtitle_hic_front"="Take a picture of the front of your health insurance card";
+"doc_capture_camera_title_hic_back"="Back of your health insurance card";
+"doc_capture_camera_subtitle_hic_back"="Take a picture of the back of your health insurance card";
+"doc_capture_camera_title_rpc_front"="Front of your residence permit card";
+"doc_capture_camera_subtitle_rpc_front"="Take a picture of the front of your residence permit card";
+"doc_capture_camera_title_rpc_back"="Back of your residence permit card";
+"doc_capture_camera_subtitle_rpc_back"="Take a picture of the back of your residence permit card";
+"doc_capture_camera_button_shutter"="<b>TAKE PICTURE</b>";
+"doc_capture_camera_toast_document_detection"="Use a background that contrasts with the document";
+"doc_capture_instructions_title_eidc_front"="Front of your electronic id card";
+"doc_capture_instructions_subtitle_eidc_front"="Take a picture of the front of your electronic id card";
+"doc_capture_instructions_title_eidc_back"="Back of your electronic id card";
+"doc_capture_instructions_subtitle_eidc_back"="Take a picture of the back of your electronic id card";
+"doc_capture_instructions_title_pidc_inside"="Internal side of your paper id card";
+"doc_capture_instructions_subtitle_pidc_inside"="Take a picture of the internal side of your paper id card";
+"doc_capture_instructions_title_pidc_cover"="Cover side of your paper id card";
+"doc_capture_instructions_subtitle_pidc_cover"="Take a picture of the cover side of your paper id card";
+"doc_capture_instructions_title_passport_inside"="Internal side of your passport";
+"doc_capture_instructions_subtitle_passport_inside"="Take a picture of the internal side of your passport";
+"doc_capture_instructions_title_dlc_front"="Front of your driving licence";
+"doc_capture_instructions_subtitle_dlc_front"="Take a picture of the front of your driving licence";
+"doc_capture_instructions_title_dlc_back"="Back of your driving licence";
+"doc_capture_instructions_subtitle_dlc_back"="Take a picture of the back of your driving licence";
+"doc_capture_instructions_title_hic_front"="Front of your health insurance card";
+"doc_capture_instructions_subtitle_hic_front"="Take a picture of the front of your health insurance card";
+"doc_capture_instructions_title_hic_back"="Back of your health insurance card";
+"doc_capture_instructions_subtitle_hic_back"="Take a picture of the back of your health insurance card";
+"doc_capture_instructions_title_rpc_front"="Front of your residence permit card";
+"doc_capture_instructions_subtitle_rpc_front"="Take a picture of the front of your residence permit card";
+"doc_capture_instructions_title_rpc_back"="Back of your residence permit card";
+"doc_capture_instructions_subtitle_rpc_back"="Take a picture of the back of your residence permit card";
+"doc_capture_instructions_button_accept"="<b>OK</b>";
+"edocid_instructions_title"="Position your document as the image";
+"edocid_instructions_button_accept"="OK";
+"edocid_take_data_title"="Check the data";
+"edocid_take_data_subtitle"="Press OK to start reading";
+"edocid_take_data_doc_number"="Document number";
+"edocid_take_data_expiration_date"="Expiration date";
+"edocid_take_data_date_of_birth"="Date of birth";
+"edocid_take_data_button_ok"="Ok";
+"edocid_dialog_validation_fail_message"="Fill all fields";
+"edocid_dialog_validation_fail_title"="Warning";
+"edocid_dialog_validation_fail_ok"="Ok";
+"edocid_date_picker_button_ok"="Ok";
+"edocid_date_picker_button_clear"="Clear";
+"edocid_dialog_exit_title"="Info";
+"edocid_dialog_exit_message"="Cancel all operations and exit?";
+"edocid_dialog_exit_ok"="<b>OK</b>";
+"edocid_dialog_exit_cancel"="Discard";
+"edocid_nfc_status_starting"="Hold your iPhone near an NFC enabled eDocument";
+"edocid_nfc_status_authenticating"="Authenticating with eDocument...";
+"edocid_nfc_status_access_chip"="Access to chip and read data";
+"edocid_nfc_status_error_reading_edoc"="Sorry, there was a problem reading the eDocument. Please try again";
+"edocid_nfc_status_error_tag_not_valid"="Tag not valid";
+"edocid_nfc_status_error_multiple_tags"="More than one tags was found. Please present only one tag";
+"edocid_nfc_status_error_connection_error"="Connection error. Please try again";
+"edocid_nfc_status_error_mrz_key_invalid"="MRZ Key not valid for this eDocument";
+"edocid_nfc_status_error_connection_lost"="Connection lost";
+"edocid_nfc_status_read_success"="eDocument read successfully";
+"edocid_id_card"="Identity Card";
+"edocid_type_c"="C";
+"edocid_passport"="Passport";
+"edocid_crew_member"="Crew member";
+"edocid_migrant"="Migrant";
+"edocid_travel_doc"="Travel Document";
+"edocid_type_a"="A";
+"edocid_type_v"="V";
+"edocid_type_i"="I";
+"edocid_green_card"="Green Card";
+"edocid_visa"="Visa";
+"edocid_camera_title_eidc_back"="edocid_camera_title_eidc_back";
+"edocid_camera_subtitle_eidc_back"="edocid_camera_subtitle_eidc_back";
+"edocid_camera_title_passport_inside"="edocid_camera_title_passport_inside";
+"edocid_camera_subtitle_passport_inside"="edocid_camera_subtitle_passport_inside";
+"edocid_unknown"="Unknown";
+"edocid_dialog_mrz_no_detection_title"="Can't detect MRZ";
+"edocid_dialog_mrz_no_detection_message"="Make sure the document is well lit and has no glare";
+"edocid_dialog_mrz_no_detection_retry"="Try again";
+"edocid_dialog_mrz_no_detection_insert_manually"="Insert data manually";
+"edocid_dialog_mrz_no_detection_exit"="Exit";
+"edocid_dialog_connection_lost_title"="Connection Lost";
+"edocid_dialog_connection_lost_message"="Move the document closer to the device and do not move it until the app are finished reading";
+"edocid_dialog_connection_lost_exit"="Exit";
+"edocid_dialog_connection_lost_retry"="Try again";
+"edocid_dialog_authentication_error_title"="Authentication Error";
+"edocid_dialog_authentication_error_message"="MRZ data is not valid";
+"edocid_dialog_authentication_error_edit_data"="Double check the data";
+"edocid_dialog_authentication_error_exit"="Exit";
+"edocid_dialog_empty_personal_number_title"="Warning";
+"edocid_dialog_empty_personal_number_message"="Enter the personal number";
+"edocid_dialog_empty_personal_number_ok"="Ok";
+"edocid_recap_data_form_title"="<b>Confirm data</b>";
+"edocid_recap_data_form_subtitle"="Check and fill in the missing information";
+"edocid_recap_data_form_personal_info_label"="Personal Information";
+"edocid_recap_data_form_additional_info_label"="Additional info";
+"edocid_recap_data_form_document_label"="Details of the document";
+"edocid_recap_data_form_hint_name"="Name";
+"edocid_recap_data_form_hint_surname"="Surname";
+"edocid_recap_data_form_hint_place_of_birth"="Place of birth";
+"edocid_recap_data_form_hint_date_of_birth"="Date of birth";
+"edocid_recap_data_form_hint_sex"="Sex";
+"edocid_recap_data_form_hint_nationality"="Nationality";
+"edocid_recap_data_form_hint_personal_number"="Personal number";
+"edocid_recap_data_form_hint_state"="State";
+"edocid_recap_data_form_hint_address"="Address";
+"edocid_recap_data_form_hint_city"="City";
+"edocid_recap_data_form_hint_doc_number"="Document number";
+"edocid_recap_data_form_hint_expiration_date"="Expiration date";
+"edocid_recap_data_form_hint_issuing_state"="Issuing state";
+"edocid_recap_data_form_hint_issuing_date"="Issuing date";
+"edocid_recap_data_form_hint_issuing_authority"="Issuing authority";
+"edocid_recap_data_form_hint_nis"="NIS";
+"edocid_recap_data_form_button_ok"="<b>CONFIRM</b>";

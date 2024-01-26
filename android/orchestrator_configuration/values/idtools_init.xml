@@ -4,7 +4,7 @@
     //AssistedSelfie
     <bool name="assisted_selfie_init_continuous_face_tracking">true</bool>
     <integer name="assisted_selfie_init_check_steps_timeout">10000</integer>
-    <integer name="assisted_selfie_init_background_transparency">5</integer>
+    <integer name="assisted_selfie_init_background_transparency">125</integer>
     <bool name="assisted_selfie_init_start_button">true</bool>
     <string name="assisted_selfie_init_animation_images_asset_path"></string>
     <bool name="assisted_selfie_init_enable_check_view"> true</bool>
@@ -17,15 +17,15 @@
     <bool name="doc_capture_init_no_detection_shoot_button">false</bool>
     <bool name="doc_capture_init_always_show_shoot_button">false</bool>
     <integer name="doc_capture_init_shoot_button_timeout">3000</integer>
-    <integer name="doc_capture_init_background_transparency">200</integer>
+    <string name="doc_capture_init_background_transparency">125</string>
+    <string name="doc_capture_init_document_overlay_transparency">125</string>
     <string name="doc_capture_init_camera_orientation">portrait</string>
-    <integer name="doc_capture_init_document_overlay_transparency">125</integer>
     <bool name="doc_capture_init_instructions">true</bool>
-    <bool name="doc_capture_init_detector_outline">false</bool>
+    <bool name="doc_capture_init_detector_outline">true</bool>
     <integer name="doc_capture_init_images_compression_level">0</integer>
-    <bool name="doc_capture_init_autoshoot">false</bool>
+    <bool name="doc_capture_init_autoshoot">true</bool>
     <bool name="doc_capture_init_blur_detection">false</bool>
-    <integer name="doc_capture_init_blur_threshold">25</integer>
+    <string name="doc_capture_init_blur_threshold">1.5</string>
     <bool name="doc_capture_init_glare_detection">false</bool>
     <integer name="doc_capture_init_autoshoot_timeout">3</integer>
     <bool name="doc_capture_init_alternative_camera_layout">false</bool>
@@ -33,20 +33,22 @@
     <bool name="doc_capture_init_alternative_button_shutter">false</bool>
     <bool name="doc_capture_init_disable_flip_animation">false</bool>
     <bool name="doc_capture_init_precise_crop">false</bool>
-    <string name="doc_capture_init_camera_proportion">RATIO_16_9</string>
+    <string name="doc_capture_init_camera_proportion">FULL_SIZE</string>
 
 
     //EDocID
+    <bool name="edocid_init_instructions">true</bool>
     <integer name="edocid_init_camera_no_detection_timeout">15</integer>
     <bool name="edocid_init_performed_reading_tasks">true</bool>
     <string name="edocid_init_animation_images_asset_path"></string>
     <bool name="edocid_init_read_nis">false</bool>
     <bool name="edocid_init_camera_mrz_editable">true</bool>
     <bool name="edocid_init_enable_recap_data_form">true</bool>
-    <integer name="edocid_init_camera_background_transparency">200</integer>
-    <integer name="edocid_init_camera_document_overlay_transparency">125</integer>
+    <string name="edocid_init_camera_background_transparency">125</string>
+    <string name="edocid_init_camera_document_overlay_transparency">125</string>
     <bool name="edocid_init_ignore_mrz">false</bool>
     <bool name="edocid_init_mandatory_personal_number">true</bool>
-
-
+    <string name="edocid_init_preferred_authentication">BAC</string>
+    <bool name="edocid_init_exclusive_authentication">false</bool>
+    <bool name="edocid_init_document_info_button">false</bool>
 </resources>

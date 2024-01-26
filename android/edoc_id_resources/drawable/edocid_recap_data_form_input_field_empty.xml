@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <solid android:color="@color/edocid_recap_data_form_input_field_background" />
+
+    <stroke
+        android:width="@dimen/edocid_recap_data_form_input_field_border"
+        android:color="@color/edocid_recap_data_form_input_field_empty_border"/>
+
+    <corners
+        android:bottomRightRadius="@dimen/edocid_recap_data_form_input_field_corner_radius"
+        android:bottomLeftRadius="@dimen/edocid_recap_data_form_input_field_corner_radius"
+        android:topRightRadius="@dimen/edocid_recap_data_form_input_field_corner_radius"
+        android:topLeftRadius="@dimen/edocid_recap_data_form_input_field_corner_radius"/>
+
+</shape>

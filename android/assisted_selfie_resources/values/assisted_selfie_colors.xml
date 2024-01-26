@@ -1,5 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+
+    <color name="assisted_selfie_color_primary">#0072a5</color>
+    <color name="assisted_selfie_color_primaryDark">#FF092342</color>
+    <color name="assisted_selfie_colorAccent">#00B0FF</color>
+    <color name="assisted_selfie_background_assisted_selfie_black">#000000</color>
+
+    <color name="assisted_selfie_white">#FFFFFF</color>
+    <color name="assisted_selfie_transparent">#00000000</color>
+    <color name="assisted_selfie_red">#FF0000</color>
+    <color name="assisted_selfie_green">#00FF00</color>
+    <color name="assisted_selfie_black">#000000</color>
+
+    <color name="assisted_selfie_back_exit_background">@color/assisted_selfie_transparent</color>
+
     <!-- Default colors -->
     <color name="assisted_selfie_text">@color/assisted_selfie_white</color>
     <color name="assisted_selfie_button_background">@color/assisted_selfie_transparent</color>
@@ -8,7 +22,9 @@
     <color name="assisted_selfie_start_title">@color/assisted_selfie_white</color>
     <color name="assisted_selfie_start_subtitle">@color/assisted_selfie_white</color>
     <color name="assisted_selfie_start_button">@color/assisted_selfie_transparent</color>
+    <color name="assisted_selfie_start_button_disable">#B6B4B4</color>
     <color name="assisted_selfie_start_button_text">@color/assisted_selfie_white</color>
+    <color name="assisted_selfie_start_button_disable_text">#E3E3E3</color>
     <color name="assisted_selfie_buttons_back_exit">@color/assisted_selfie_white</color>
 
     <!-- Take selfie -->

@@ -170,6 +170,14 @@
 	<string>#FFFFFF</string>
 	<key>edocid_font</key>
 	<string>#000000</string>
+	<key>edocid_instructions_button_accept_text</key>
+	<string>#000000</string>
+	<key>edocid_instructions_button_accept</key>
+	<string>#FFFFFF</string>
+	<key>edocid_instructions_title</key>
+	<string>#000000</string>
+	<key>edocid_instructions_button_exit</key>
+	<string>#000000</string>
 	<key>edocid_take_data_button_exit</key>
 	<string>#000000</string>
 	<key>edocid_take_data_button_accept</key>
@@ -185,6 +193,8 @@
 	<key>edocid_take_data_input_field_hint</key>
 	<string>#000000</string>
 	<key>edocid_take_data_button_accept_text</key>
+	<string>#000000</string>
+	<key>edocid_take_data_doc_number_info_icon</key>
 	<string>#000000</string>
 	<key>edocid_date_picker_button_ok</key>
 	<string>#FFFFFF</string>

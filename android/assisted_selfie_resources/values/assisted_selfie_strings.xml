@@ -1,8 +1,6 @@
 <resources>
-   
+
     <!-- main -->
-    <string name="assisted_selfie_main_custom_dialog_message">Assisted Selfie</string>
-    <string name="assisted_selfie_toast_vibrator_error">Ok!</string>
     <string name="assisted_selfie_dialog_exit_message">Cancel all operations and exit?</string>
     <string name="assisted_selfie_dialog_exit_yes">Yes</string>
     <string name="assisted_selfie_dialog_exit_no">No</string>
@@ -43,10 +41,12 @@
     <string name="assisted_selfie_liveness_title_smile">Smile</string>
     <string name="assisted_selfie_liveness_title_intra_step">Well Done… Step Passed!</string>
     <string name="assisted_selfie_liveness_subtitle_intra_step">Wait for the next step…</string>
-    <string name="assisted_selfie_liveness_title_tilt_up">Tilt Up</string>
-    <string name="assisted_selfie_liveness_subtitle_tilt_up">Tilt slowly your head to the up until you don&#180;tfeel the vibration of the device, then return to the starting position</string>
-    <string name="assisted_selfie_liveness_title_tilt_down">Tilt Down</string>
-    <string name="assisted_selfie_liveness_subtitle_tilt_down">Tilt slowly your head to the down until you don&#180;tfeel the vibration of the device, then return to the starting position</string>
+    <string name="assisted_selfie_liveness_title_look_up">Look Up</string>
+    <string name="assisted_selfie_liveness_subtitle_look_up">Tilt slowly your head to the up until you don&#180;tfeel the vibration of the device, then return to the starting position</string>
+    <string name="assisted_selfie_liveness_title_look_down">Look Down</string>
+    <string name="assisted_selfie_liveness_subtitle_look_down">Tilt slowly your head to the down until you don&#180;tfeel the vibration of the device, then return to the starting position</string>
+    <string name="assisted_selfie_liveness_title_kiss">Kiss</string>
+    <string name="assisted_selfie_liveness_subtitle_kiss">Kiss</string>
 
     <!-- check view -->
     <string name="assisted_selfie_check_title">The photo must be clear</string>
@@ -82,6 +82,4 @@
     <string name="assisted_selfie_internal_check_subtitle_error_selfie_not_valid">There is an error on Selfie. Retake it!</string>
     <string name="assisted_selfie_internal_check_subtitle_error_selfie_hands">The face must be clearly visible</string>
     <string name="assisted_selfie_internal_check_subtitle_error_selfie_mouth">The mouth must not be covered</string>
-
-
 </resources>

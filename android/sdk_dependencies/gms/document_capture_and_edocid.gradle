@@ -1,0 +1,9 @@
+dependencies {
+    implementation('it.infocert.sdk.idtools:idToolsOrchestrator:5.0.0') {
+         exclude group: 'com.google.mlkit', module: 'image-labeling',
+        exclude group: 'org.tensorflow', module: 'tensorflow-lite-support',
+        exclude group: 'org.tensorflow', module: 'tensorflow-lite',
+        exclude group: 'org.tensorflow', module: 'tensorflow-lite-task-vision',
+        exclude group: 'org.ejml', modle: 'ejml-all',
+    }
+}

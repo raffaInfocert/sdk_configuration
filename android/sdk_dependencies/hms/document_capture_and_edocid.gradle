@@ -1,0 +1,12 @@
+dependencies {
+    implementation('it.infocert.sdk.idtools:idToolsOrchestrator:5.0.0') {
+        exclude group: 'com.huawei.hms:', module: 'ml-computer-vision-face',
+        exclude group: 'com.huawei.hms:', module: 'ml-computer-vision-face-shape-point-model',
+        exclude group: 'com.huawei.hms:', module: 'ml-computer-vision-face-emotion-model',
+        exclude group: 'com.huawei.hms:', module: 'ml-computer-vision-face-feature-model',
+        exclude group: 'org.tensorflow', module: 'tensorflow-lite-support',
+        exclude group: 'org.tensorflow', module: 'tensorflow-lite',
+        exclude group: 'org.tensorflow', module: 'tensorflow-lite-task-vision',
+        exclude group: 'org.ejml', modle: 'ejml-all',
+    }
+}

@@ -29,8 +29,13 @@
     <color name="edocid_take_data_input_field_hint">#808080</color>
     <color name="edocid_take_data_title">@color/black</color>
     <color name="edocid_take_data_subtitle">@color/black</color>
+    <color name="edocid_take_data_doc_number_info_icon">@color/black</color>
 
-
+    <color name="edocid_instructions_title">@color/black</color>
+    <color name="edocid_instructions_background">@color/transparent</color>
+    <color name="edocid_instructions_button_accept">@color/transparent</color>
+    <color name="edocid_instructions_button_accept_text">@color/black</color>
+    <color name="edocid_instructions_buttons_back_exit">@color/black</color>
 
     <!-- mrz camera view -->
     <color name="edocid_camera_buttons_back_exit">@color/white</color>
