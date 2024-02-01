@@ -1,1 +1,1 @@
-sdk config
+sdk configuration
