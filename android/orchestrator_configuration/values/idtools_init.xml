@@ -11,6 +11,8 @@
     <integer name="assisted_selfie_init_max_retries">3</integer>
     <bool name="assisted_selfie_init_disable_retries_randomness">false</bool>
     <integer name="assisted_selfie_init_timeout_intra_steps">3000</integer>
+    <string name="assisted_selfie_init_check_view_layout">DEFAULT</string>
+    <string name="assisted_selfie_init_overlay_shape">OVAL</string>
 
 
     //DocCapture
@@ -34,6 +36,9 @@
     <bool name="doc_capture_init_disable_flip_animation">false</bool>
     <bool name="doc_capture_init_precise_crop">false</bool>
     <string name="doc_capture_init_camera_proportion">FULL_SIZE</string>
+    <bool name="doc_capture_init_disable_shutter_sound">false</bool>
+    <string name="doc_capture_init_check_layout">DEFAULT</string>
+    <string name="doc_capture_init_camera_layout">DEFAULT</string>
 
 
     //EDocID
