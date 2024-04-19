@@ -35,6 +35,18 @@
     <string name="doc_capture_check_button_rotate">Rotate the picture</string>
     <string name="doc_capture_check_button_accept_rotate">The image is oriented correctly</string>
 
+    <string name="doc_capture_check_title_passport">Page with your passport photo</string>
+    <string name="doc_capture_check_title_pidc_inside">Page with your inside paper id card photo</string>
+    <string name="doc_capture_check_title_pidc_cover">Page with your cover paper id card photo</string>
+    <string name="doc_capture_check_title_eidc_front">Page with your front electronic id card photo</string>
+    <string name="doc_capture_check_title_eidc_back">Page with your back electronic id card photo</string>
+    <string name="doc_capture_check_title_dlc_front">Page with your front driving licence photo</string>
+    <string name="doc_capture_check_title_dlc_back">Page with your back driving licence photo</string>
+    <string name="doc_capture_check_title_rpc_front">Page with your front resident permit photo</string>
+    <string name="doc_capture_check_title_rpc_back">Page with your back resident permit photo</string>
+    <string name="doc_capture_check_title_hic_front">Page with your front health insurance card photo</string>
+    <string name="doc_capture_check_title_hic_back">Page with your back health insurance card photo</string>
+
     <!-- instructions activity -->
     <string name="doc_capture_instructions_title_eidc_front">Front of your electronic id card</string>
     <string name="doc_capture_instructions_title_eidc_back">Back of your electronic id card</string>

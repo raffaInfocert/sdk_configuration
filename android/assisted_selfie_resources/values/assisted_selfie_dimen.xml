@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="assisted_selfie_oval_width">0.8</string>
-    <string name="assisted_selfie_oval_aspect_ratio">1.1</string>
+    <!-- overlay shape -->
+    <string name="assisted_selfie_overlay_width">0.8</string>
+    <string name="assisted_selfie_overlay_aspect_ratio">1.1</string>
+    <string name="assisted_selfie_overlay_border_stroke">12</string>
+    <integer name="assisted_selfie_overlay_corner_radius">30</integer>
+
     <!-- start view -->
     <string name="assisted_selfie_start_button_width">0.9</string>
     <dimen name="assisted_selfie_start_button_text">17sp</dimen>
