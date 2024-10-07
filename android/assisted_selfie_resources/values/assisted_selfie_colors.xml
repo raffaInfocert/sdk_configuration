@@ -81,4 +81,6 @@
       <color name="assisted_selfie_border_overlay_color_ok">@color/assisted_selfie_green</color>
     <color name="assisted_selfie_border_overlay_color_ko">@color/assisted_selfie_red</color>
     <color name="assisted_selfie_border_overlay_color_default">@color/assisted_selfie_transparent</color>
+    <color name="assisted_selfie_border_overlay_color_animations">@color/assisted_selfie_green</color>
+
 </resources>

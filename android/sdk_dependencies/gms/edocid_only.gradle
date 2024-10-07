@@ -1,5 +1,5 @@
 dependencies {
-    implementation('it.infocert.sdk.idtools:idToolsOrchestrator:5.0.0') {
+    implementation('it.infocert.sdk.idtools:idToolsOrchestrator:4.4.0') {
         exclude group: 'com.google.mlkit', module: 'face-detection',
         exclude group: 'com.google.mlkit', module: 'image-labeling',
         exclude group: 'org.tensorflow', module: 'tensorflow-lite-support',

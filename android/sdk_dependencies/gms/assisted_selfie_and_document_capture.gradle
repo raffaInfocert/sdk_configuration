@@ -1,5 +1,5 @@
 dependencies {
-    implementation('it.infocert.sdk.idtools:idToolsOrchestrator:4.1.0') {
+    implementation('it.infocert.sdk.idtools:idToolsOrchestrator:4.4.0') {
         exclude group: 'org.skyscreamer', module: 'jsonassert',
         exclude group: 'it.infocert.sdk.idcheck', module: 'jmrtd',
         exclude group: 'net.sf.scuba', module: 'scuba-sc-android',

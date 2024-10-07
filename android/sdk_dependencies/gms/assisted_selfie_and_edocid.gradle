@@ -1,3 +1,3 @@
 dependencies {
-    implementation('it.infocert.sdk.idtools:idToolsOrchestrator:4.1.0')
+    implementation('it.infocert.sdk.idtools:idToolsOrchestrator:4.4.0')
 }

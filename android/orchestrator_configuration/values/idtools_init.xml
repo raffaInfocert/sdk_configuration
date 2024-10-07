@@ -13,6 +13,8 @@
     <integer name="assisted_selfie_init_timeout_intra_steps">3000</integer>
     <string name="assisted_selfie_init_check_view_layout">DEFAULT</string>
     <string name="assisted_selfie_init_overlay_shape">OVAL</string>
+    <bool name="assisted_selfie_init_disable_audio_step_completed">false</bool>
+    <integer name="assisted_selfie_init_compile_sdk_level">35</integer>
 
 
     //DocCapture
@@ -30,7 +32,6 @@
     <string name="doc_capture_init_blur_threshold">1.5</string>
     <bool name="doc_capture_init_glare_detection">false</bool>
     <integer name="doc_capture_init_autoshoot_timeout">3</integer>
-    <bool name="doc_capture_init_alternative_camera_layout">false</bool>
     <bool name="doc_capture_init_disable_flash_button">false</bool>
     <bool name="doc_capture_init_alternative_button_shutter">false</bool>
     <bool name="doc_capture_init_disable_flip_animation">false</bool>
@@ -39,6 +40,7 @@
     <bool name="doc_capture_init_disable_shutter_sound">false</bool>
     <string name="doc_capture_init_check_layout">DEFAULT</string>
     <string name="doc_capture_init_camera_layout">DEFAULT</string>
+    <integer name="doc_capture_init_compile_sdk_level">35</integer>
 
 
     //EDocID
@@ -56,4 +58,9 @@
     <string name="edocid_init_preferred_authentication">BAC</string>
     <bool name="edocid_init_exclusive_authentication">false</bool>
     <bool name="edocid_init_document_info_button">false</bool>
+    <bool name="edocid_init_enable_document_position_help">false</bool>
+    <bool name="edocid_init_enable_document_position_help_alert">false</bool>
+    <integer name="edocid_init_document_position_help_alert_timeout">10</integer>
+    <integer name="edocid_init_compile_sdk_level">35</integer>
+
 </resources>
