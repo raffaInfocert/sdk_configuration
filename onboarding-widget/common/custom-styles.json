@@ -1,0 +1,11 @@
+{
+  "loaderColor": "#995eff",
+  "primaryTextColor": "#f3e7ff",
+  "primaryBgColor": "#6200ef",
+  "secondaryTextColor": "#6200ef",
+  "secondaryBgColor": "#f3e7ff",
+  "theme": {
+    "textColor": "#ffffff",
+    "backgroundColor": "#000000"
+  }
+}

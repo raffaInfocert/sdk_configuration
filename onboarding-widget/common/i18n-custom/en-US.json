@@ -1,0 +1,1041 @@
+{
+  "MOCK": {
+    "TITLE": "Welcome to",
+    "BUTTON": "Continue",
+    "THANK": "Thank you!"
+  },
+  "STEP": {
+    "UPLOAD_DOCUMENTS": {
+      "TITLE": "Documents upload",
+      "DOCUMENT_SELECT_INFO": {
+        "INSTRUCTION_HEADER": "Select issuing country and type of document to be uploaded",
+        "ONE_LABEL": "Prepare the following document",
+        "FORM": {
+          "ISSUING_COUNTRY": "Issuing country",
+          "ISSUING_COUNTRY_PLACEHOLDER": "Select the issuing country",
+          "DOCUMENT_TYPE": "Document type",
+          "DOCUMENT_TYPE_PLACEHOLDER": "Select the document type"
+        }
+      }
+    },
+    "UPDATE_PERSON": {
+      "TITLE": "Data verification",
+      "FORM": {
+        "INSTRUCTION_HEADER": "Check the data below to correct or confirm them",
+        "INVALID_FORM_ERROR": "Some data seems to be missing or not valid, please double-check and correct to continue",
+        "NOT_VALID": "Not valid item"
+      }
+    },
+    "LIVENESS": {
+      "TITLE": "Liveness check"
+    },
+    "UPLOAD-DOCUMENT-STEP": {
+      "FRONT_IMAGE": "Front",
+      "BACK_IMAGE": "Back",
+      "WARNING_TITLE": "Make sure that:",
+      "WARNING_CHECK_IMAGE": "The document is entirely visible",
+      "WARNING_CHECK_IMAGE_FOCUS": "The image is in focus",
+      "WARNING_CHECK_DATA": "The data is clearly readable",
+      "WARNING_CHECK_REFLEX": "There are no reflections on the document"
+    },
+    "VERIDAS": {
+      "GENERIC":{
+        "VIEWS":{
+          "LOADING":{
+            "CARD":{
+              "TITLE":"Loading"
+            }
+          },
+          "FEEDBACK":{
+            "VIDEOERRORPERMISSION":{
+              "CARD":{
+                "TITLE":"Please make sure you give the application access to your camera and microphone"
+              }
+            }
+        }
+        }
+      },
+      "SDKDOCUMENT":{
+        "VIEWS":{
+          "INSTRUCTIONS":{
+            "CARD":{
+              "TITLE":{
+                "DOCUMENTS":[
+                  "Be prepared to photograph the front of the document"
+                ],
+                "DOCUMENTS_BACK": [
+                  "Prepare to photograph the back of the document"
+                ]
+              },
+              "SUBTITLE":{
+                "DOCUMENTS":[
+                  "Make sure all data in the document is visible, and that there are no reflections or shadows.",
+                  "When the document is in focus, the capture will be performed automatically"
+                ]
+              }
+            },
+            "BUTTONS":{
+              "STARTPROCESS":{
+                "TEXT": "Continue"
+              }
+            }
+          },
+          "CAPTURE":{
+            "MANUALCAPTURE":{
+              "OBVERSE":{
+                "CARD":{
+                  "TITLE":"Click here to capture document",
+                  "HEADER":"Click here to capture the document"
+                }
+              },
+              "REVERSE":{
+                "CARD":{
+                  "TITLE":"Click here to capture document",
+                  "HEADER":"Click here to capture the document"
+                }
+              }
+            },
+            "FEEDBACK":{
+              "PRECAPTURE":{
+                "OBVERSE":{
+                  "CARD":{
+                    "HEADER":"Capture",
+                    "TITLE": "Show the front of the document",
+                    "SHORT":"Show the front of the document"
+                  }
+                },
+                "REVERSE":{
+                  "CARD":{
+                    "HEADER":"Capture",
+                    "TITLE": "Show the back of the document",
+                    "SHORT":"Show the back of the document"
+                  }
+                }
+              }
+            },
+            "ERRORS":{
+              "ORIENTATIONCHANGEDRESTARTMESSAGE":{
+                "CARD":{
+                  "TITLE": "The process could not be completed due to an unexpected change in device orientation.",
+                  "BUTTONS":{
+                    "RESTART":{
+                      "TEXT": "Please try again"
+                    }
+                  }
+                }
+              }
+            },
+            "CENTERED":{
+              "OBVERSE":{
+                "CARD":{
+                  "TITLE": "Image correctly centered"
+                }
+              },
+              "REVERSE":{
+                "CARD":{
+                  "TITLE": "Image correctly centered"
+                }
+              }
+            },
+            "NOTCENTERED":{
+              "OBVERSE":{
+                "CARD":{
+                  "TITLE": "Tries to center the document image in the displayed rectangle, then avoid moving or tilting it"
+                }
+              },
+              "REVERSE":{
+                "CARD":{
+                  "TITLE": "Tries to center the document image in the displayed rectangle, then avoid moving or tilting it"
+                }
+              }
+            },
+            "SUCCESS":{
+              "OBVERSE":{
+                "CARD":{
+                  "TITLE": "Image collected successfully"
+                }
+              },
+              "REVERSE":{
+                "CARD":{
+                  "TITLE": "Image collected successfully"
+                }
+              }
+            },
+            "TOOFAR":{
+              "OBVERSE":{
+                "CARD":{
+                  "TITLE":"Bring the document closer"
+                }
+              },
+              "REVERSE":{
+                "CARD":{
+                  "TITLE":"Make the document closer"
+                }
+              }
+            },
+            "TOOCLOSE":{
+              "OBSERVE":{
+                "CARD":{
+                  "TITLE":"Pull the document away"
+                }
+              },
+              "REVERSE":{
+                "CARD":{
+                  "TITLE":"Reverse document"
+                }
+              }
+            }
+          },
+          "REVIEWIMAGE":{
+            "CARD":{
+              "TITLE":"Verify that the document is well centered and readable",
+              "CARD":{
+                "BUTTONS":{
+                  "CONTINUE":{
+                    "TEXT":"Continue"
+                  },
+                  "REPEAT":{
+                    "TEXT":"Repeat"
+                  }
+                }
+              }
+            }
+          },
+          "DEVICEROTATED":{
+            "CARD":{
+              "TITLE":"The device orientation has changed"
+            }
+          }
+        }
+      },
+      "SDKSELFIE":{
+        "VIEWS":{
+          "DEVICEROTATED":{
+            "CARD":{
+              "TITLE":"The device orientation has changed"
+            }
+          }
+        }
+      },
+      "SDKVIDEO":{
+        "VIEWS":{
+            "DEVICEROTATED":{
+              "CARD":{
+                "TITLE":"The device orientation has changed"
+              }
+          }
+      }
+      }
+    },
+    "FEEDBACK": {
+      "UPLOAD_IMAGE_ERROR": "Something went wrong with the image upload. Retry or contact support",
+      "UPLOAD_DOCUMENT_ERROR": "Something went wrong with the document upload. Retry or contact support",
+      "CAPTURE_DOCUMENT_ERROR": "Something went wrong with the document capture. Retry or contact support",
+      "UPDATE_PERSON": {
+        "CONFIG_NOT_FOUND_ERROR": "No configuration found for Update Person data step",
+        "JSONSCHEMA_NOT_FOUND_ERROR": "Unable to render Update Person Data form (JSON Schema not found)",
+        "UISCHEMA_NOT_FOUND_ERROR": "Unable to render Update Person Data form (UI Schema not found)",
+        "UPDATE_PERSON_ERROR": "Something went wrong with the update of person data. Retry or contact support"
+      },
+      "NO_VALID_INFO_TEMPLATE": "Missing or invalid configuration of info template. Unable to display the expected information",
+      "ERROR": "Error",
+      "MOREINFO": "Report code: ",
+      "CONNECTIVITY": "It appears you are offline. Please check your internet connection",
+      "GENERIC_ERROR": "Generic Error",
+      "GENERIC_ERROR_RETRY": "Retry or contact support",
+      "UNAUTHORIZED": "You're not authorized to perform the requested action. Please contact support",
+      "LOAD_COMPONENT_ERROR": "An error occurred while loading the current step. Please reload the page or contact support",
+      "UNAUTHORIZED_DEVICE": "The device you're using has changed. Please use the one you started the identification procedure with",
+      "WAITING": "We're almost there",
+      "DATA_TRANSFER_ONGOING": "Data transfer is in progress"
+    },
+    "NOTIFY": {
+      "CONFIRM": "Continue",
+      "FINISH": "Finish",
+      "ONBWGT":{
+        "ACTION":{
+          "WAIT":{
+            "TITLE": "Please wait",
+            "CONTENT": "Some operations are in progress"
+          }
+        },
+        "PROCESS":{
+          "REJECTED":{
+            "TITLE": "Rejected",
+            "CONTENT": "Your request has been rejected, please check again your document and data and try again"
+          },
+          "COMPLETED":{
+            "TITLE": "Completed",
+            "CONTENT":"Your request has been completed successfully"
+          }
+        }
+      }
+    },
+    "DATA-UPDATE": {
+      "PERSONAL_DATA": "Personal Data",
+      "CITIZENSHIPS": "Citizenship",
+      "PLACE_OF_BIRTH": "Birth Place",
+      "IDENTIFIER": "Identifier",
+      "IDENTITY_DOCUMENT": "Identity Documents",
+      "ADDRESSES": "Addresses",
+      "ROOT": {
+        "ERROR": {
+          "CUSTOM": "Required data is missing"
+        }
+      },
+      "PLACE": "Place",
+      "NORMALIZED_ADDRESS": "Normalized Address",
+      "PLACE_OF_ISSUE": "Place of Issuance",
+      "PERSONALDATA": {
+        "FIRSTNAME": {
+          "LABEL": "Name",
+          "DESCRIPTION": "Name",
+          "ERROR":{
+            "CUSTOM": "The data is mandatory and must be composed only of letters"
+          }
+        },
+        "LASTNAME": {
+          "LABEL": "Surname",
+          "DESCRIPTION": "Surname",
+          "ERROR":{
+            "CUSTOM": "The data is mandatory and must be composed only of letters"
+          }
+        },
+        "ADDITIONALDATA": {
+          "SECONDLASTNAME": {
+            "LABEL": "Second Surname",
+            "DESCRIPTION": "Second Surname (If present)",
+            "ERROR":{
+              "CUSTOM": "The data is mandatory and must be composed only of letters"
+            }
+          }
+        },
+        "GENDER": {
+          "LABEL": "Genre",
+          "DESCRIPTION": "Genre",
+          "ERROR": {
+            "CUSTOM": "Missing or invalid data"
+          }
+        },
+        "IDENTIFICATIONNUMBER": {
+          "LABEL": "Tax Code",
+          "DESCRIPTION": "Unique Subject Identifier",
+          "ERROR":{
+            "CUSTOM": "Missing or invalid data"
+          }
+        },
+        "DATEOFBIRTH": {
+          "LABEL": "Date of Birth",
+          "DESCRIPTION": "Date of Birth",
+          "ERROR":{
+            "CUSTOM": "Missing or invalid data"
+          }
+        },
+        "CITIZENSHIPS": {
+          "LABEL": "Citizenship",
+          "DESCRIPTION": "Citizenship",
+          "ADDTOOLTIP": "Add",
+          "ADDARIALABEL": "Add",
+          "REMOVETOOLTIP": "Remove",
+          "REMOVEARIALABEL": "Remove",
+          "UPARIALABEL": "Raise",
+          "UP": "Up",
+          "DOWN": "Down",
+          "DOWNARIALABEL": "Down",
+          "NODATAMESSAGE": "No Data Inserted",
+          "NOSELECTION": "Data Not Selected",
+          "DELETEDIALOGTITLE": "Delete",
+          "DELETEDIALOGMESSAGE": "Do you confirm your intention to delete?",
+          "DELETEDIALOGACCEPT": "Confirm",
+          "DELETEDIALOGDECLINE": "Cancel",
+          "ERROR": {
+            "CUSTOM": "Required Data"
+          }
+        },
+        "PLACEOFBIRTH": {
+          "COUNTRY": {
+            "LABEL": "Country of Birth",
+            "DESCRIPTION": "Country of Birth",
+            "ERROR": {
+              "CUSTOM": "Required Data"
+            }
+          },
+          "COUNTRYSUBDIVISION": {
+            "LABEL": "Province",
+            "DESCRIPTION": "Province",
+            "ERROR": {
+              "CUSTOM": "Required Data"
+            }
+          },
+          "CITY": {
+            "LABEL": "City",
+            "DESCRIPTION": "City",
+            "ERROR": {
+              "CUSTOM": "Required Data"
+            }
+          }
+        },
+        "IDENTIFIER": {
+          "COUNTRY": {
+            "LABEL": "Country",
+            "DESCRIPTION": "Description"
+          },
+          "SERIALTYPE": {
+            "LABEL": "Type",
+            "DESCRIPTION": "Identifier Type"
+          },
+          "NUMBER": {
+            "LABEL": "Identification Code",
+            "DESCRIPTION": "Identification Code"
+          }
+        }
+      },
+      "IDENTITYDOCUMENTS": {
+        "LABEL": "Identity Documents",
+        "DESCRIPTION": "Identity Documents",
+        "ERROR": {
+          "CUSTOM": "Required data is missing"
+        },
+        "NUMBER": {
+          "LABEL": "Number",
+          "DESCRIPTION": "Number",
+          "ERROR": {
+            "CUSTOM": "Required data is missing"
+          }
+        },
+        "ISSUER": {
+          "LABEL": "Issuer",
+          "DESCRIPTION": "Issuer",
+          "ERROR": {
+            "CUSTOM": "Required Data"
+          }
+        },
+        "ISSUEDATE": {
+          "LABEL": "Issue Date",
+          "DESCRIPTION": "Issue Date",
+          "ERROR": {
+            "CUSTOM": "Required Data"
+          }
+        },
+        "EXPIRATIONDATE": {
+          "LABEL": "Expiration Date",
+          "DESCRIPTION": "Expiration Date",
+          "ERROR": {
+            "CUSTOM": "Required data is missing"
+          }
+        },
+        "PLACEOFISSUE": {
+          "COUNTRY": {
+            "LABEL": "Issuer Country",
+            "DESCRIPTION": "Issuer Country",
+            "ERROR": {
+              "CUSTOM": "Required Data"
+            }
+          },
+          "COUNTRYSUBDIVISION": {
+            "LABEL": "Region",
+            "DESCRIPTION": "Region",
+            "ERROR": {
+              "CUSTOM": "Required Data"
+            }
+          },
+          "CITY": {
+            "LABEL": "City",
+            "DESCRIPTION": "City",
+            "ERROR": {
+              "CUSTOM": "Required Data"
+            }
+          }
+        },
+        "ADDTOOLTIP": "Add",
+        "ADDARIALABEL": "Add",
+        "REMOVETOOLTIP": "Remove",
+        "REMOVEARIALABEL": "Remove",
+        "UPARIALABEL": "Up",
+        "UP": "Up",
+        "DOWN": "Down",
+        "DOWNARIALABEL": "Down",
+        "NODATAMESSAGE": "No Document Inserted",
+        "NOSELECTION": "No Data Selected",
+        "DELETEDIALOGTITLE": "Delete",
+        "DELETEDIALOGMESSAGE": "Do you confirm your intention to delete?",
+        "DELETEDIALOGACCEPT": "Confirm",
+        "DELETEDIALOGDECLINE": "Cancel"
+      },
+      "ADDITIONAL_DOCUMENTS": "Additional Documents",
+      "ADDITIONALDOCUMENTS": {
+        "ISSUER": {
+          "LABEL": "Issuing Body",
+          "DESCRIPTION": "Issuing Body",
+          "ERROR": {
+            "CUSTOM": "Required Data"
+          }
+        },
+        "ISSUEDATE": {
+          "LABEL": "Issue Date",
+          "DESCRIPTION": "Issue Date",
+          "ERROR": {
+            "CUSTOM": "Required Data"
+          }
+        },
+        "PLACEOFISSUE": {
+          "COUNTRY": {
+            "LABEL": "Country of Birth",
+            "DESCRIPTION": "Country of Birth",
+            "ERROR": {
+              "CUSTOM": "Required Data"
+            }
+          },
+          "COUNTRYSUBDIVISION": {
+            "LABEL": "Region",
+            "DESCRIPTION": "Region",
+            "ERROR": {
+              "CUSTOM": "Required Data"
+            }
+          },
+          "CITY": {
+            "LABEL": "City",
+            "DESCRIPTION": "City",
+            "ERROR": {
+              "CUSTOM": "Required Data"
+            }
+          }
+        },
+        "LABEL": "Additional Documents",
+        "DESCRIPTION": "Additional Documents",
+        "ADDTOOLTIP": "Add",
+        "ADDARIALABEL": "Add",
+        "REMOVETOOLTIP": "Delete",
+        "REMOVEARIALABEL": "Delete",
+        "UPARIALABEL": "Up",
+        "UP": "Up",
+        "DOWN": "Down",
+        "DOWNARIALABEL": "Down",
+        "NODATAMESSAGE": "No Additional Document Inserted",
+        "NOSELECTION": "No Data Selected",
+        "DELETEDIALOGTITLE": "Delete",
+        "DELETEDIALOGMESSAGE": "Do you confirm your intention to delete?",
+        "DELETEDIALOGACCEPT": "Confirm",
+        "DELETEDIALOGDECLINE": "Cancel"
+      },
+      "ADDRESSDATAS": {
+        "LABEL": "Contact details",
+        "DESCRIPTION": "Contact details",
+        "ADDTOOLTIP": "Add",
+        "ADDARIALABEL": "Add",
+        "REMOVETOOLTIP": "Delete",
+        "REMOVEARIALABEL": "Delete",
+        "UPARIALABEL": "Up",
+        "UP": "Up",
+        "DOWN": "Down",
+        "DOWNARIALABEL": "Down",
+        "NODATAMESSAGE": "No Address Inserted",
+        "NOSELECTION": "No Data Selected",
+        "DELETEDIALOGTITLE": "Delete",
+        "DELETEDIALOGMESSAGE": "Do you confirm your intention to delete?",
+        "DELETEDIALOGACCEPT": "Confirm",
+        "DELETEDIALOGDECLINE": "Cancel",
+        "TYPE": {
+          "LABEL": "Type",
+          "DESCRIPTION": "Typology",
+          "ERROR": {
+            "CUSTOM": "Required Data"
+          }
+        },
+        "ADDRESS": {
+          "LABEL": "Address",
+          "DESCRIPTION": "Address",
+          "ERROR": {
+            "CUSTOM": "Required Data"
+          }
+        },
+        "ADDRESSNUMBER": {
+          "LABEL": "Number",
+          "DESCRIPTION": "Number",
+          "ERROR": {
+            "CUSTOM": "Required Data"
+          }
+        },
+        "POSTCODE": {
+          "LABEL": "Zip Code",
+          "DESCRIPTION": "Postal Code",
+          "ERROR": {
+            "CUSTOM": "Required Data"
+          }
+        },
+        "PLACE": {
+          "COUNTRY": {
+            "LABEL": "Country",
+            "DESCRIPTION": "Country",
+            "ERROR": {
+              "CUSTOM": "Required Data"
+            }
+          },
+          "COUNTRYSUBDIVISION": {
+            "LABEL": "Region",
+            "DESCRIPTION": "Region",
+            "ERROR": {
+              "CUSTOM": "Required Data"
+            }
+          },
+          "CITY": {
+            "LABEL": "City",
+            "DESCRIPTION": "City",
+            "ERROR": {
+              "CUSTOM": "Required Data"
+            }
+          }
+        },
+        "NORMALIZEDADDRESS": {
+          "DUF": {
+            "LABEL": "Normalized Address",
+            "DESCRIPTION": "Normalized Address"
+          },
+          "DUG": {
+            "LABEL": "Dug",
+            "DESCRIPTION": "Dug"
+          },
+          "HOUSENUMBER": {
+            "LABEL": "House Number",
+            "DESCRIPTION": "House Number"
+          }
+        }
+      },
+      "CONTACTS": {
+        "TITLE": "Contacts",
+        "EMAIL": {
+          "LABEL": "Email Address",
+          "DESCRIPTION": "Email Address",
+          "ADDTOOLTIP": "Add",
+          "ADDARIALABEL": "Add",
+          "REMOVETOOLTIP": "Delete",
+          "REMOVEARIALABEL": "Delete",
+          "UPARIALABEL": "Up",
+          "UP": "Up",
+          "DOWN": "Down",
+          "DOWNARIALABEL": "Down",
+          "NODATAMESSAGE": "No Email Inserted",
+          "NOSELECTION": "No Data Selected",
+          "DELETEDIALOGTITLE": "Delete",
+          "DELETEDIALOGMESSAGE": "Do you confirm your intention to delete?",
+          "DELETEDIALOGACCEPT": "Confirm",
+          "DELETEDIALOGDECLINE": "Cancel",
+          "ERROR": {
+            "CUSTOM": "Check the inserted data"
+          }
+        },
+        "EMAILS": {
+          "TYPE": {
+            "LABEL": "Type",
+            "DESCRIPTION": "Email Type",
+            "ERROR": {
+              "CUSTOM": "Required Data"
+            }
+          },
+          "VALUE": {
+            "LABEL": "Email",
+            "DESCRIPTION": "Email",
+            "ERROR": {
+              "CUSTOM": "Missing Or Not Valid Data"
+            }
+          }
+        },
+        "PHONE": {
+          "TITLE": "Phone Number",
+          "DESCRIPTION": "Phone Number",
+          "ERROR": {
+            "CUSTOM": "Check the inserted data"
+          },
+          "ADDTOOLTIP": "Add",
+          "ADDARIALABEL": "Add",
+          "REMOVETOOLTIP": "Delete",
+          "REMOVEARIALABEL": "Delete",
+          "UPARIALABEL": "Up",
+          "UP": "Up",
+          "DOWN": "Down",
+          "DOWNARIALABEL": "Down",
+          "NODATAMESSAGE": "No Phone Number Inserted",
+          "NOSELECTION": "No Data Selected",
+          "DELETEDIALOGTITLE": "Delete",
+          "DELETEDIALOGMESSAGE": "Do you confirm your intention to delete?",
+          "DELETEDIALOGACCEPT": "Confirm",
+          "DELETEDIALOGDECLINE": "Cancel"
+        },
+        "PHONENUMBERS": {
+          "TYPE": {
+            "LABEL": "Type",
+            "DESCRIPTION": "Number Type",
+            "ERROR": {
+              "CUSTOM": "Required Data"
+            }
+          },
+          "VALUE": {
+            "LABEL": "Phone Number",
+            "DESCRIPTION": "Phone Number",
+            "ERROR": {
+              "CUSTOM": "Missing Or Not Valid Data"
+            }
+          }
+        }
+      }
+    },
+    "VIDEOID": {
+      "OUT_OF_CALENDAR": "At the moment, our service is not operational.",
+      "OPENING_HOURS": "The opening hours are:",
+      "OPENING_HOURS_CLAUSE": "Opening hours may be subject to change",
+      "NO_OPERATOR": "Our operators are not available at the moment. Please try again later.",
+      "IF_IN_QUEUE": "Right now there are {{ size }} users waiting before you.",
+      "IF_IN_QUEUE_ONE": "Right now there is 1 user waiting before you.",
+      "IF_IN_QUE_II": "To continue, click the button below and wait for the operator in charge of the video recognition",
+      "BTN_QUEUE": "Continua",
+      "BTN_RECONNECT": "Reconnect me",
+      "DEQUEUE_MSG": "By clicking Confirm, you will lose the acquired priority and if you resume the procedure, you will have to wait again for an operator in charge of video recognition.",
+      "DEQUEUE_CONFIRM_BUTTON": "Comnfirm",
+      "DEQUEUE_CANCEL_BUTTON": "Cancel",
+      "BANDWIDTH_TEST_RETRY_BUTTON": "Try again",
+      "LEAVE_BUTTON": "I'll come back later",
+      "OPEN": "Open",
+      "CLOSED": "Closed",
+      "DATE_EXCEPTION": "With the following exceptions:",
+      "TITLE": "Video identification",
+      "MEETING_TERMINATED": "Video identification session concluded",
+      "MEETING_STARTED_OR_IN_PROGRESS": "Video identification session already started",
+      "ERROR": {
+        "JOIN_MEETING_FAILED": "Unable to access the video recognition session. Try reloading the page and if the problem persists, contact support"
+      },
+      "BANDWIDTH_TEST_MSG": "The connectivity test is in execution. Please wait",
+      "BANDWIDTH_TEST_MSG_FAILED": "The connectivity test failes<br>Try again",
+      "BANDWIDTH_TEST_MSG_PASSED": "The connectivity test has been completed successfully",
+      "WAITING": {
+        "TITLES": {
+          "NEXT_TURN": "Your turn is almost here",
+          "POSITION": "You are in queue, position {{ position }}",
+          "CALCULATING": "Calculating queue position..."
+        },
+        "SUBTITLES": {
+          "NEXT_TURN": "Almost there, an operator will be available for you soon",
+          "WAITING": "Wait for your turn, an operator will be available for you soon"
+        }
+      }
+    },
+    "REQUIREMENTS": {
+      "TITLE": "Requirements",
+      "CAMERA_AVAILABLE": "Available",
+      "CAMERA_NOT_AVAILABLE": "Not available",
+      "CHOOSE_OTHER_CAMERA": "Choose other camera",
+      "TEST_REPEAT": "Test repeat",
+      "GO_ON": "Continue",
+      "BROWSER": "Browser",
+      "CAMERA": "Camera",
+      "CAMERA_RESOLUTION": "Camera Resolution",
+      "DEVICE": "Device type",
+      "DEVICE_NOT_ENABLED": "Not enabled",
+      "DEVICE_ENABLED": "Enabled",
+      "DEVICE_DESKTOP_NOT_SUPPORTED": "Only mobile devices are supported",
+      "DEVICE_MOBILE_NOT_SUPPORTED": "Only desktop devices are supported",
+      "CAMERA_NOT_AVAILABLE_MESSAGE": "Camera access by the browser has not been authorized",
+      "CAMERA_NO_RIGHT_RESOLUTION_MESSAGE": "The camera resolution is too low",
+      "CAMERA_NO_RIGHT_BROWSER": "The browser version in use is not supported"
+    },
+    "INFO": {
+      "UPLOAD-DOCUMENT": {
+        "DEFAULT": [
+          "<div><h1 style='font-weight: bold; margin-bottom: 36px'>How to scan a document using a webcam page 1</h1><img style='max-width: 100%;' src='./assets/images/infographyc/upload_documents.png' alt='Document Positioning'><div style='margin-bottom: 24px;'><h2>1. Position the document</h2><p>Place the document on a flat surface. Ensure it is well-lit, avoiding shadows or glare.</p></div><div style='margin-bottom: 24px;'><h2>2. Adjust the webcam</h2><p>Center the document in the frame and keep the camera parallel to avoid distortion.</p></div><div style='margin-bottom: 24px;'><h2>3. Prepare for capture</h2><p>Ensure that the text is visible and that there are no objects obstructing it. Remove any glare.</p></div><div style='margin-bottom: 24px;'><h2>4. Capture</h2><p>Click the \"Capture\" button and wait for the application to confirm the image quality.</p></div><p style='text-align: center; font-style: italic; color: #888;'>If the document is not recognized correctly, repeat the process following these guidelines.</p></div>",
+          "<div><h1 style='font-weight: bold; margin-bottom: 36px'>How to scan a document using a webcam page 2</h1><img style='max-width: 100%;' src='./assets/images/infographyc/upload_documents.png' alt='Document Positioning'><div style='margin-bottom: 24px;'><h2>1. Position the document</h2><p>Place the document on a flat surface. Ensure it is well-lit, avoiding shadows or glare.</p></div><div style='margin-bottom: 24px;'><h2>2. Adjust the webcam</h2><p>Center the document in the frame and keep the camera parallel to avoid distortion.</p></div><div style='margin-bottom: 24px;'><h2>3. Prepare for capture</h2><p>Ensure that the text is visible and that there are no objects obstructing it. Remove any glare.</p></div><div style='margin-bottom: 24px;'><h2>4. Capture</h2><p>Click the \"Capture\" button and wait for the application to confirm the image quality.</p></div><p style='text-align: center; font-style: italic; color: #888;'>If the document is not recognized correctly, repeat the process following these guidelines.</p></div>"
+        ]
+      },
+      "UPDATE-PERSON": {
+        "DEFAULT": [
+          "<div><h1 style='font-weight: bold; margin-bottom: 36px'>How to fill in the personal details</h1><img style='max-width: 100%;' src='./assets/images/infographyc/update_person.png' alt='Verify Acquired Data'><div style='margin-bottom: 24px;'><h2>1. Verify the acquired data</h2><p>Check that the data extracted from the document is correct (e.g. name, surname, date of birth).</p></div><div style='margin-bottom: 24px;'><h2>2. Correct any errors</h2><p>If any fields are incorrect, edit them manually to ensure accuracy.</p></div><div style='margin-bottom: 24px;'><h2>3. Complete the missing fields</h2><p>Add any information not automatically filled in, such as email, phone number, or address.</p></div><div style='margin-bottom: 24px;'><h2>4. Save the data</h2><p>Once all the fields are correct and complete, click the \"Continue\" button to securely store the information.</p></div><p style='text-align: center; font-style: italic; color: #888;'>Carefully check the data before saving to avoid errors.</p></div>"
+        ]
+      },
+      "LIVENESS": {
+        "DEFAULT": [
+          "<div><h1 style='font-weight: bold; margin-bottom: 36px'>How to perform the face verification step</h1><div style='margin-bottom: 24px;'><h2>1. Follow the instructions on the screen</h2><img style='max-width: 100%;' src='./assets/images/infographyc/liveness.png' alt='Face Capture from Webcam'><p>During this step, look at the box at the bottom of the screen for the instructions required.</p></div><div style='margin-bottom: 24px;'><h2>2. Stay centered in the frame</h2><p>Ensure your face remains centered in the frame for correct detection.</p></div><div style='margin-bottom: 24px;'><h2>3. Turn your head to the right</h2><p>When requested, gently turn your head to the right following the instructions on the screen.</p></div><div style='margin-bottom: 24px;'><h2>4. Tilt your head to the left</h2><p>Slightly tilt your head to the left if instructed by the system.</p></div><p style='text-align: center; font-style: italic; color: #888;'>Carefully follow the instructions to ensure proper completion of the step.</p></div>"
+        ]
+      },
+      "VIDEO-ID": {
+        "DEFAULT": [
+          "<div><h1 style='font-weight: bold; margin-bottom: 36px'>How to perform the video identification step</h1><img style='max-width: 100%;' src='./assets/images/infographyc/video_id.png' alt='Video Identification'><div style='margin-bottom: 24px;'><h2>1. Follow the instructions on the screen</h2><p>During this step, video recognition will be performed through your webcam.</p></div><div style='margin-bottom: 24px;'><h2>2. Queue up and wait your turn</h2><p>Press the 'Queue up' button and wait until it is your turn for video identification.</p></div><div style='margin-bottom: 24px;'><h2>3. Follow the operator's requests</h2><p>Follow the instructions given to you by the operator.</p></div></div>"
+        ]
+      }
+    }
+  },
+  "COMMON": {
+    "BACK": "Back",
+    "NEXT": "Next",
+    "CONTINUE": "Continue",
+    "CLOSE": "Close",
+    "NO_RESULT": "No result",
+    "DOCUMENT_TYPE": {
+      "DRIVING_LICENSE":  "Driving license",
+      "ELECTRONIC_IDENTITY_CARD":  "Electronic identity card",
+      "HEALTH_INSURANCE_CARD": "Health insurance card",
+      "IDENTITY_CARD": "Identity card",
+      "PASSPORT": "Passport"
+    },
+    "WARNING": "Warning",
+    "REPEAT": "Repeat",
+    "SKIP": "Skip",
+    "COUNTRIES": {
+      "AD": "Andorra",
+      "AE": "United Arab Emirates",
+      "AF": "Afghanistan",
+      "AG": "Antigua & Barbuda",
+      "AI": "Anguilla",
+      "AL": "Albania",
+      "AM": "Armenia",
+      "AO": "Angola",
+      "AQ": "Antarctica",
+      "AR": "Argentina",
+      "AS": "American Samoa",
+      "AT": "Austria",
+      "AU": "Australia",
+      "AW": "Aruba",
+      "AX": "Åland Islands",
+      "AZ": "Azerbaijan",
+      "BA": "Bosnia & Herzegovina",
+      "BB": "Barbados",
+      "BD": "Bangladesh",
+      "BE": "Belgium",
+      "BF": "Burkina Faso",
+      "BG": "Bulgaria",
+      "BH": "Bahrain",
+      "BI": "Burundi",
+      "BJ": "Benin",
+      "BL": "St. Barthélemy",
+      "BM": "Bermuda",
+      "BN": "Brunei",
+      "BO": "Bolivia",
+      "BQ": "Caribbean Netherlands",
+      "BR": "Brazil",
+      "BS": "Bahamas",
+      "BT": "Bhutan",
+      "BV": "Bouvet Island",
+      "BW": "Botswana",
+      "BY": "Belarus",
+      "BZ": "Belize",
+      "CA": "Canada",
+      "CC": "Cocos (Keeling) Islands",
+      "CD": "Congo - Kinshasa",
+      "CF": "Central African Republic",
+      "CG": "Congo - Brazzaville",
+      "CH": "Switzerland",
+      "CI": "Côte d’Ivoire",
+      "CK": "Cook Islands",
+      "CL": "Chile",
+      "CM": "Cameroon",
+      "CN": "China",
+      "CO": "Colombia",
+      "CR": "Costa Rica",
+      "CU": "Cuba",
+      "CV": "Cape Verde",
+      "CW": "Curaçao",
+      "CX": "Christmas Island",
+      "CY": "Cyprus",
+      "CZ": "Czechia",
+      "DE": "Germany",
+      "DJ": "Djibouti",
+      "DK": "Denmark",
+      "DM": "Dominica",
+      "DO": "Dominican Republic",
+      "DZ": "Algeria",
+      "EC": "Ecuador",
+      "EE": "Estonia",
+      "EG": "Egypt",
+      "EH": "Western Sahara",
+      "ER": "Eritrea",
+      "ES": "Spain",
+      "ET": "Ethiopia",
+      "FI": "Finland",
+      "FJ": "Fiji",
+      "FK": "Falkland Islands",
+      "FM": "Micronesia",
+      "FO": "Faroe Islands",
+      "FR": "France",
+      "GA": "Gabon",
+      "GB": "United Kingdom",
+      "GD": "Grenada",
+      "GE": "Georgia",
+      "GF": "French Guiana",
+      "GG": "Guernsey",
+      "GH": "Ghana",
+      "GI": "Gibraltar",
+      "GL": "Greenland",
+      "GM": "Gambia",
+      "GN": "Guinea",
+      "GP": "Guadeloupe",
+      "GQ": "Equatorial Guinea",
+      "GR": "Greece",
+      "GS": "South Georgia & South Sandwich Islands",
+      "GT": "Guatemala",
+      "GU": "Guam",
+      "GW": "Guinea-Bissau",
+      "GY": "Guyana",
+      "HK": "Hong Kong SAR China",
+      "HM": "Heard & McDonald Islands",
+      "HN": "Honduras",
+      "HR": "Croatia",
+      "HT": "Haiti",
+      "HU": "Hungary",
+      "ID": "Indonesia",
+      "IE": "Ireland",
+      "IL": "Israel",
+      "IM": "Isle of Man",
+      "IN": "India",
+      "IO": "British Indian Ocean Territory",
+      "IQ": "Iraq",
+      "IR": "Iran",
+      "IS": "Iceland",
+      "IT": "Italy",
+      "JE": "Jersey",
+      "JM": "Jamaica",
+      "JO": "Jordan",
+      "JP": "Japan",
+      "KE": "Kenya",
+      "KG": "Kyrgyzstan",
+      "KH": "Cambodia",
+      "KI": "Kiribati",
+      "KM": "Comoros",
+      "KN": "St. Kitts & Nevis",
+      "KP": "North Korea",
+      "KR": "South Korea",
+      "KW": "Kuwait",
+      "KY": "Cayman Islands",
+      "KZ": "Kazakhstan",
+      "LA": "Laos",
+      "LB": "Lebanon",
+      "LC": "St. Lucia",
+      "LI": "Liechtenstein",
+      "LK": "Sri Lanka",
+      "LR": "Liberia",
+      "LS": "Lesotho",
+      "LT": "Lithuania",
+      "LU": "Luxembourg",
+      "LV": "Latvia",
+      "LY": "Libya",
+      "MA": "Morocco",
+      "MC": "Monaco",
+      "MD": "Moldova",
+      "ME": "Montenegro",
+      "MF": "St. Martin",
+      "MG": "Madagascar",
+      "MH": "Marshall Islands",
+      "MK": "North Macedonia",
+      "ML": "Mali",
+      "MM": "Myanmar (Burma)",
+      "MN": "Mongolia",
+      "MO": "Macao SAR China",
+      "MP": "Northern Mariana Islands",
+      "MQ": "Martinique",
+      "MR": "Mauritania",
+      "MS": "Montserrat",
+      "MT": "Malta",
+      "MU": "Mauritius",
+      "MV": "Maldives",
+      "MW": "Malawi",
+      "MX": "Mexico",
+      "MY": "Malaysia",
+      "MZ": "Mozambique",
+      "NA": "Namibia",
+      "NC": "New Caledonia",
+      "NE": "Niger",
+      "NF": "Norfolk Island",
+      "NG": "Nigeria",
+      "NI": "Nicaragua",
+      "NL": "Netherlands",
+      "NO": "Norway",
+      "NP": "Nepal",
+      "NR": "Nauru",
+      "NU": "Niue",
+      "NZ": "New Zealand",
+      "OM": "Oman",
+      "PA": "Panama",
+      "PE": "Peru",
+      "PF": "French Polynesia",
+      "PG": "Papua New Guinea",
+      "PH": "Philippines",
+      "PK": "Pakistan",
+      "PL": "Poland",
+      "PM": "St. Pierre & Miquelon",
+      "PN": "Pitcairn Islands",
+      "PR": "Puerto Rico",
+      "PS": "Palestinian Territories",
+      "PT": "Portugal",
+      "PW": "Palau",
+      "PY": "Paraguay",
+      "QA": "Qatar",
+      "RE": "Réunion",
+      "RO": "Romania",
+      "RS": "Serbia",
+      "RU": "Russia",
+      "RW": "Rwanda",
+      "SA": "Saudi Arabia",
+      "SB": "Solomon Islands",
+      "SC": "Seychelles",
+      "SD": "Sudan",
+      "SE": "Sweden",
+      "SG": "Singapore",
+      "SH": "St. Helena",
+      "SI": "Slovenia",
+      "SJ": "Svalbard & Jan Mayen",
+      "SK": "Slovakia",
+      "SL": "Sierra Leone",
+      "SM": "San Marino",
+      "SN": "Senegal",
+      "SO": "Somalia",
+      "SR": "Suriname",
+      "SS": "South Sudan",
+      "ST": "São Tomé & Príncipe",
+      "SV": "El Salvador",
+      "SX": "Sint Maarten",
+      "SY": "Syria",
+      "SZ": "Eswatini",
+      "TC": "Turks & Caicos Islands",
+      "TD": "Chad",
+      "TF": "French Southern Territories",
+      "TG": "Togo",
+      "TH": "Thailand",
+      "TJ": "Tajikistan",
+      "TK": "Tokelau",
+      "TL": "Timor-Leste",
+      "TM": "Turkmenistan",
+      "TN": "Tunisia",
+      "TO": "Tonga",
+      "TR": "Türkiye",
+      "TT": "Trinidad & Tobago",
+      "TV": "Tuvalu",
+      "TW": "Taiwan",
+      "TZ": "Tanzania",
+      "UA": "Ukraine",
+      "UG": "Uganda",
+      "UM": "U.S. Outlying Islands",
+      "US": "United States",
+      "UY": "Uruguay",
+      "UZ": "Uzbekistan",
+      "VA": "Vatican City",
+      "VC": "St. Vincent & Grenadines",
+      "VE": "Venezuela",
+      "VG": "British Virgin Islands",
+      "VI": "U.S. Virgin Islands",
+      "VN": "Vietnam",
+      "VU": "Vanuatu",
+      "WF": "Wallis & Futuna",
+      "WS": "Samoa",
+      "YE": "Yemen",
+      "YT": "Mayotte",
+      "ZA": "South Africa",
+      "ZM": "Zambia",
+      "ZW": "Zimbabwe"
+    },
+    "DAYS_OF_WEEK": {
+      "SUNDAY": "Sunday",
+      "MONDAY": "Monday",
+      "TUESDAY": "Tuesday",
+      "WEDNESDAY": "Wednesday",
+      "THURSDAY": "Thursday",
+      "FRIDAY": "Friday",
+      "SATURDAY": "Saturday"
+    }
+  }
+}
