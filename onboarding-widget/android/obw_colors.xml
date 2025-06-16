@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="obw_black">#000000</color>
+    <color name="obw_white">#ffffff</color>
+    <color name="obw_background">@color/obw_white</color>
+    <color name="obw_primary">#0070cc</color>
+    <color name="obw_primary_dark">#0054b7</color>
+    <color name="obw_secondary">#002857</color>
+    <color name="obw_secondary_dark">#001124</color>
+    <color name="obw_grey_1">#F2F2F2</color>
+    <color name="obw_grey_2">#E6E6E6</color>
+    <color name="obw_grey_3">#bfbfbf</color>
+    <color name="obw_grey_4">#666666</color>
+    <color name="obw_grey_5">#DEEEF7</color>
+</resources>

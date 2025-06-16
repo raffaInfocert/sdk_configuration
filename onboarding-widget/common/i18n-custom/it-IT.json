@@ -1,14 +1,67 @@
 {
+  "GLOBAL": {
+    "ERRORS": {
+      "OFFLINE": {
+        "TITLE": "Sembra che tu sia offline",
+        "MESSAGE": "Verifica la tua connessione ad Internet."
+      },
+      "GENERIC": {
+        "TITLE": "Si è verificato un errore",
+        "MESSAGE": "Ci dispiace, c’è stato un problema. Ti invitiamo a contattare l’assistenza."
+      },
+      "CONNECTIVITY": {
+        "TITLE": "Si è verificato un errore",
+        "MESSAGE": "Ci dispiace, c’è stato un problema nella comunicazione con il server. Ti invitiamo a riprovare più tardi."
+      },
+      "INVALID_TOKEN": {
+        "TITLE": "Sessione non valida",
+        "MESSAGE": "L'identificativo di sessione non è valido. Ti invitiamo a contattare l'assistenza."
+      },
+      "UNAUTHORIZED": {
+        "TITLE": "Sembra tu abbia cambiato dispositivo",
+        "MESSAGE": "Ti invitiamo a riprovare con il dispositivo autorizzato precedentemente."
+      }
+    }
+  },
   "MOCK": {
     "TITLE": "Benvenuto su",
     "BUTTON": "Continua",
     "THANK": "Grazie!"
   },
   "STEP": {
+    "CONSENT_COLLECTION": {
+      "DEFAULT": {
+        "TITLE": "Raccolta consensi",
+        "INPUT_TEXT": "Accetto",
+        "MANDATORY": "(consenso obbligatorio)",
+        "OPTIONAL": "(consenso facoltativo)",
+        "YES": "Acconsento",
+        "NO": "NON acconsento",
+        "MISSING_CONSENTS": "Per proseguire, tutti i consensi devono essere espressi",
+        "MISSING_MANDATORY_CONSENTS": "Per proseguire, è necessario accettare i consensi obbligatori",
+        "SUBMIT_TEXT": "Continua",
+        "TOAST_TEXT": "Esprimi la tua preferenza per poter continuare",
+        "UNABLE_TO_PROCEED_TITLE": "Non è possibile continuare con il processo",
+        "UNABLE_TO_PROCEED_TITLE_MSG": "Per poter continuare, è richiesto il tuo consenso per tutti i punti con consenso obbligatorio."
+      }
+    },
     "UPLOAD_DOCUMENTS": {
       "TITLE": "Acquisizione documenti",
+      "SUMMARY": "Seleziona il paese di emissione e il tipo di documento da acquisire.",
+      "FRONT_IMAGE": "Fronte",
+      "BACK_IMAGE": "Retro",
+      "WARNING_TITLE": "Assicurati che:",
+      "WARNING_CHECK_IMAGE": "Il documento sia interamente visibile",
+      "WARNING_CHECK_IMAGE_FOCUS": "L'immagine sia a fuoco",
+      "WARNING_CHECK_DATA": "I dati siano ben leggibili",
+      "WARNING_CHECK_REFLEX": "Non ci siano riflessi sul documento",
+      "PREPARE_DOCUMENT_TITLE": "Prepara la tua {{documentTypeLabel}}",
+      "PREPARE_DOCUMENT_SUBTITLE": "Nel prossimo step ti verrà chiesto di mostrare la tua {{documentTypeLabel}}",
+      "SHOOT_PICTURE_TITLE": "Scatta una foto",
+      "SHOOT_PICTURE_SUBTITLE_FRONT": "alla <b>parte anteriore</b> del documento",
+      "SHOOT_PICTURE_SUBTITLE_BACK": "alla <b>parte posteriore</b> del documento",
       "DOCUMENT_SELECT_INFO": {
-        "INSTRUCTION_HEADER": "Seleziona il Paese e il tipo di documento da caricare",
+        "INSTRUCTION_HEADER": "Seleziona il Paese e il tipo di documento da acquisire:",
         "ONE_LABEL": "Prepara il seguente documento",
         "FORM": {
           "ISSUING_COUNTRY": "Paese di emissione",
@@ -16,218 +69,600 @@
           "DOCUMENT_TYPE": "Tipo di documento",
           "DOCUMENT_TYPE_PLACEHOLDER": "Seleziona il tipo di documento"
         }
+      },
+      "WELCOME": {
+        "TITLE": "Acquisizione documenti",
+        "SUMMARY": "ti chiederemo di eseguire mostrare il tuo documento davanti alla fotocamera.",
+        "HINTS": {
+          "DOC_VISIBLE": "Il documento è interamente visibile",
+          "IMAGE_SHARPNESS": "L'immagine è nitida",
+          "READABLE_TEXT": "I dati sono ben leggibili",
+          "NO_REFLEX": "Non ci sono riflessi sul documento"
+        },
+        "ACTIONS": {
+          "START": {
+            "TEXT": "Inizia acquisizione"
+          }
+        }
+      },
+      "DOCUMENTS_INTRO": {
+        "INSTRUCTION_TITLE": "Acquisizione documenti",
+        "INSTRUCTION_HEADER": "Prima di iniziare con l 'acquisizione dei documenti, assicurati di rispettare i seguenti requisiti:",
+        "INSTRUCTION_DOC_VISIBLE": "Il documento è interamente visibile",
+        "INSTRUCTION_IMAGE_SHARPNESS": "L'immagine è nitida",
+        "INSTRUCTION_READABLE_TEXT": "I dati sono ben leggibili",
+        "INSTRUCTION_NO_REFLEX": "Non ci sono riflessi sul documento",
+        "INSTRUCTION_FLOW_DOCUMENTS": "Per questo flusso ti verranno richiesti i seguenti documenti:",
+        "EXIT_MESSAGE": "L'utente ha abbandonato il flusso di acquisizione documenti",
+        "IMAGES_REQUIREMENTS": "Requisiti delle immagini"
+      },
+      "DOCUMENTS_INTRO_MULTIPLE": {
+        "SUBTITLE": "Riepilogo dei documenti richiesti",
+        "INSTRUCTION_TITLE": "Acquisizione documenti",
+        "INSTRUCTION_HEADER": "Per questo passaggio hai scelto di acquisire il documento:",
+        "INSTRUCTION_OTHER_DOCUMENTS": "Successivamente, ti chiederemo di mostrare anche il documento:",
+        "INSTRUCTION_BTN": "Inizia acquisizione",
+        "MODIFY_BTN": "Modifica"
       }
     },
     "UPDATE_PERSON": {
-      "TITLE": "Verifica dati",
+      "TITLE": "Dati del documento",
+      "SUBTITLE": "Verifica i tuoi dati prima di confermare e completa tutte le informazioni mancanti.",
+      "SUBMIT_TEXT": "Prosegui",
+      "ERROR_MESSAGE": "Alcuni dati non sono validi. Ti preghiamo di ricontrollare per poter proseguire.",
+      "LOADING_TITLE": "Stiamo preparando i tuoi dati",
       "FORM": {
-        "INSTRUCTION_HEADER": "Verifica la correttezza dei dati nel form per correggerli o confermarli",
-        "INVALID_FORM_ERROR": "Sembra che alcuni dati siano mancanti o non validi, ti preghiamo di ricontrollare e correggere per continuare",
-        "NOT_VALID": "Elemento non valido"
+        "FIELDS": {
+          "PERSONAL_DATA": "Dati personali",
+          "CITIZENSHIPS": "Cittadinanza",
+          "PLACE_OF_BIRTH": "Luogo di nascita",
+          "IDENTIFIER": "Identificativo",
+          "IDENTITY_DOCUMENT": "Documenti di identità",
+          "ADDRESSES": "Indirizzi",
+          "PLACE": "Luogo",
+          "NORMALIZED_ADDRESS": "Indirizzo Normalizzato",
+          "PLACE_OF_ISSUE": "Luogo di emissione",
+          "PERSONALDATA": {
+            "FIRSTNAME": {
+              "LABEL": "Nome",
+              "DESCRIPTION": "Nome",
+              "ERROR": {
+                "CUSTOM": "Il dato è obbligatorio e deve essere composto solo di caratteri alfabetici"
+              }
+            },
+            "LASTNAME": {
+              "LABEL": "Cognome",
+              "DESCRIPTION": "Cognome",
+              "ERROR": {
+                "CUSTOM": "Il dato è obbligatorio e deve essere composto solo di caratteri alfabetici"
+              }
+            },
+            "ADDITIONALDATA": {
+              "SECONDLASTNAME": {
+                "LABEL": "Secondo cognome",
+                "DESCRIPTION": "Secondo cognome (se presente)",
+                "ERROR": {
+                  "CUSTOM": "Il dato è obbligatorio e deve essere composto solo di caratteri alfabetici"
+                }
+              }
+            },
+            "GENDER": {
+              "LABEL": "Genere",
+              "DESCRIPTION": "Genere",
+              "ERROR": {
+                "CUSTOM": "Il dato è mancante o non valido"
+              }
+            },
+            "IDENTIFICATIONNUMBER": {
+              "LABEL": "Codice fiscale",
+              "DESCRIPTION": "Identificativo Unico Soggetto",
+              "ERROR": {
+                "CUSTOM": "Il dato è mancante o non valido"
+              }
+            },
+            "DATEOFBIRTH": {
+              "LABEL": "Data di nascita",
+              "DESCRIPTION": "Data di nascita",
+              "ERROR": {
+                "CUSTOM": "Dato Mancante o Non Valido"
+              }
+            },
+            "CITIZENSHIPS": {
+              "LABEL": "Cittadinanza",
+              "DESCRIPTION": "Cittadinanza",
+              "ADDTOOLTIP": "Aggiungi cittadinanza",
+              "REMOVETOOLTIP": "Rimuovi cittadinanza",
+              "ERROR": {
+                "CUSTOM": "Mancano dati obbligatori"
+              }
+            },
+            "PLACEOFBIRTH": {
+              "COUNTRY": {
+                "LABEL": "Paese di nascita",
+                "DESCRIPTION": "Paese di nascita",
+                "ERROR": {
+                  "CUSTOM": "Dato obbligatorio"
+                }
+              },
+              "COUNTRYSUBDIVISION": {
+                "LABEL": "Provincia di nascita",
+                "DESCRIPTION": "Provincia di nascita",
+                "ERROR": {
+                  "CUSTOM": "Dato obbligatorio"
+                }
+              },
+              "CITY": {
+                "LABEL": "Comune di nascita",
+                "DESCRIPTION": "Comune di nascita",
+                "ERROR": {
+                  "CUSTOM": "Dato obbligatorio"
+                }
+              }
+            },
+            "IDENTIFIER": {
+              "COUNTRY": {
+                "LABEL": "Paese",
+                "DESCRIPTION": "Descrizione"
+              },
+              "SERIALTYPE": {
+                "LABEL": "Tipo",
+                "DESCRIPTION": "Tipo identificativo"
+              },
+              "NUMBER": {
+                "LABEL": "Codice identificativo",
+                "DESCRIPTION": "Codice identificativo"
+              }
+            }
+          },
+          "IDENTITYDOCUMENTS": {
+            "LABEL": "Dettagli documento",
+            "DESCRIPTION": "Dettagli documento",
+            "ERROR": {
+              "CUSTOM": "Mancano dati obbligatori"
+            },
+            "NUMBER": {
+              "LABEL": "Numero documento",
+              "DESCRIPTION": "Numero documento",
+              "ERROR": {
+                "CUSTOM": "Dato obbligatorio"
+              }
+            },
+            "ISSUER": {
+              "LABEL": "Ente emettitore del documento",
+              "DESCRIPTION": "Ente emettitore del documento",
+              "ERROR": {
+                "CUSTOM": "Dato obbligatorio"
+              }
+            },
+            "ISSUEDATE": {
+              "LABEL": "Data emissione del documento",
+              "DESCRIPTION": "Data emissione del documento",
+              "ERROR": {
+                "CUSTOM": "Dato obbligatorio"
+              }
+            },
+            "EXPIRATIONDATE": {
+              "LABEL": "Data scadenza del documento",
+              "DESCRIPTION": "Data scadenza del documento",
+              "ERROR": {
+                "CUSTOM": "Dato mancante"
+              }
+            },
+            "PLACEOFISSUE": {
+              "COUNTRY": {
+                "LABEL": "Paese di rilascio",
+                "DESCRIPTION": "Paese di rilascio",
+                "ERROR": {
+                  "CUSTOM": "Dato obbligatorio"
+                }
+              },
+              "COUNTRYSUBDIVISION": {
+                "LABEL": "Provincia di rilascio",
+                "DESCRIPTION": "Provincia di rilascio",
+                "ERROR": {
+                  "CUSTOM": "Dato obbligatorio"
+                }
+              },
+              "CITY": {
+                "LABEL": "Comune di rilascio",
+                "DESCRIPTION": "Comune di rilascio",
+                "ERROR": {
+                  "CUSTOM": "Dato obbligatorio"
+                }
+              }
+            },
+            "ADDTOOLTIP": "Aggiungi documento",
+            "REMOVETOOLTIP": "Rimuovi documento"
+          },
+          "ADDITIONAL_DOCUMENTS": "Documenti aggiuntivi",
+          "ADDITIONALDOCUMENTS": {
+            "ISSUER": {
+              "LABEL": "Ente emettitore del documento",
+              "DESCRIPTION": "Ente emettitore del documento",
+              "ERROR": {
+                "CUSTOM": "Dato obbligatorio"
+              }
+            },
+            "ISSUEDATE": {
+              "LABEL": "Data emissione del documento",
+              "DESCRIPTION": "Data emissione del documento",
+              "ERROR": {
+                "CUSTOM": "Dato obbligatorio"
+              }
+            },
+            "PLACEOFISSUE": {
+              "COUNTRY": {
+                "LABEL": "Paese di rilascio",
+                "DESCRIPTION": "Paese di rilascio",
+                "ERROR": {
+                  "CUSTOM": "Dato obbligatorio"
+                }
+              },
+              "COUNTRYSUBDIVISION": {
+                "LABEL": "Provincia di rilascio",
+                "DESCRIPTION": "Provincia di rilascio",
+                "ERROR": {
+                  "CUSTOM": "Dato obbligatorio"
+                }
+              },
+              "CITY": {
+                "LABEL": "Comune di rilascio",
+                "DESCRIPTION": "Comune di rilascio",
+                "ERROR": {
+                  "CUSTOM": "Dato obbligatorio"
+                }
+              }
+            },
+            "LABEL": "Documenti aggiuntivi",
+            "DESCRIPTION": "Documenti aggiuntivi",
+            "ADDTOOLTIP": "Aggiungi documento",
+            "REMOVETOOLTIP": "Rimuovi documento"
+          },
+          "ADDRESSDATAS": {
+            "LABEL": "Recapiti",
+            "DESCRIPTION": "Recapiti",
+            "ADDTOOLTIP": "Aggiungi indirizzo",
+            "REMOVETOOLTIP": "Rimuovi indirizzo",
+            "TYPE": {
+              "LABEL": "Tipologia indirizzo",
+              "DESCRIPTION": "Tipologia indirizzo",
+              "ERROR": {
+                "CUSTOM": "Dato obbligatorio"
+              }
+            },
+            "ADDRESS": {
+              "LABEL": "Indirizzo",
+              "DESCRIPTION": "Indirizzo",
+              "ERROR": {
+                "CUSTOM": "Dato obbligatorio"
+              }
+            },
+            "ADDRESSNUMBER": {
+              "LABEL": "Numero indirizzo",
+              "DESCRIPTION": "Numero indirizzo",
+              "ERROR": {
+                "CUSTOM": "Dato obbligatorio"
+              }
+            },
+            "POSTCODE": {
+              "LABEL": "CAP",
+              "DESCRIPTION": "CAP",
+              "ERROR": {
+                "CUSTOM": "Dato obbligatorio"
+              }
+            },
+            "PLACE": {
+              "COUNTRY": {
+                "LABEL": "Paese indirizzo",
+                "DESCRIPTION": "Paese indirizzo",
+                "ERROR": {
+                  "CUSTOM": "Dato obbligatorio"
+                }
+              },
+              "COUNTRYSUBDIVISION": {
+                "LABEL": "Provincia indirizzo",
+                "DESCRIPTION": "Provincia indirizzo",
+                "ERROR": {
+                  "CUSTOM": "Dato obbligatorio"
+                }
+              },
+              "CITY": {
+                "LABEL": "Comune indirizzo",
+                "DESCRIPTION": "Comune indirizzo",
+                "ERROR": {
+                  "CUSTOM": "Dato obbligatorio"
+                }
+              }
+            },
+            "NORMALIZEDADDRESS": {
+              "DUF": {
+                "LABEL": "Indirizzo Normalizzato",
+                "DESCRIPTION": "Indirizzo Normalizzato"
+              },
+              "DUG": {
+                "LABEL": "Dug",
+                "DESCRIPTION": "Dug"
+              },
+              "HOUSENUMBER": {
+                "LABEL": "Numero Casa",
+                "DESCRIPTION": "Numero Casa"
+              }
+            }
+          },
+          "CONTACTS": {
+            "TITLE": "Contatti",
+            "EMAIL": {
+              "LABEL": "Indirizzo e-mail",
+              "DESCRIPTION": "Indirizzo e-mail",
+              "ADDTOOLTIP": "Aggiungi indirizzo e-mail",
+              "REMOVETOOLTIP": "Rimuovi indirizzo e-mail",
+              "ERROR": {
+                "CUSTOM": "Verifica i dati inseriti"
+              }
+            },
+            "EMAILS": {
+              "ADDTOOLTIP": "Aggiungi indirizzo email",
+              "REMOVETOOLTIP": "Rimuovi indirizzo email",
+              "TYPE": {
+                "LABEL": "Tipo indirizzo e-mail",
+                "DESCRIPTION": "Tipo indirizzo e-mail",
+                "ERROR": {
+                  "CUSTOM": "Dato obbligatorio"
+                }
+              },
+              "VALUE": {
+                "LABEL": "Indirizzo e-mail",
+                "DESCRIPTION": "Indirizzo e-mail",
+                "ERROR": {
+                  "CUSTOM": "Dato obbligatorio o non valido"
+                }
+              }
+            },
+            "PHONE": {
+              "LABEL": "Numero di telefono",
+              "DESCRIPTION": "Numero di telefono",
+              "ERROR": {
+                "CUSTOM": "Verifica i dati inseriti"
+              },
+              "ADDTOOLTIP": "Aggiungi numero di telefono",
+              "REMOVETOOLTIP": "Rimuovi numero di telefono"
+            },
+            "PHONENUMBERS": {
+              "ADDTOOLTIP": "Aggiungi numero di telefono",
+              "REMOVETOOLTIP": "Rimuovi numero di telefono",
+              "TYPE": {
+                "LABEL": "Tipo numero di telefono",
+                "DESCRIPTION": "Tipo numero di telefono",
+                "ERROR": {
+                  "CUSTOM": "Dato obbligatorio"
+                }
+              },
+              "VALUE": {
+                "LABEL": "Numero di telefono",
+                "DESCRIPTION": "Numero di telefono",
+                "ERROR": {
+                  "CUSTOM": "Dato obbligatorio o non valido"
+                }
+              }
+            }
+          }
+
+        }
       }
     },
     "LIVENESS": {
-      "TITLE": "Liveness check"
-    },
-    "UPLOAD-DOCUMENT-STEP": {
-      "FRONT_IMAGE": "Fronte",
-      "BACK_IMAGE": "Retro",
-      "WARNING_TITLE": "Assicurati che:",
-      "WARNING_CHECK_IMAGE": "Il documento sia interamente visibile",
-      "WARNING_CHECK_IMAGE_FOCUS": "L'immagine sia a fuoco",
-      "WARNING_CHECK_DATA": "I dati siano ben leggibili",
-      "WARNING_CHECK_REFLEX": "Non ci siano riflessi sul documento"
+      "TITLE": "Liveness check",
+      "ERROR_NO_CAMERA_PERMISSONS": "Sembra che non siano stati dati i permessi per accedere alla camera",
+      "CAMERA_BUSY": "Sembra che camera sia impegnata in un'altra operazione",
+      "CONNECTION_ERROR": "Sembra che ci sia stato un problema di connessione",
+      "WELCOME": {
+        "TITLE": "Acquisizione volto",
+        "SUMMARY": "ti chiederemo di eseguire alcuni movimenti con il volto. Potrebbe esserti richiesto anche di mostrare il tuo documento.",
+        "HINTS": {
+          "SHARPNESS": "L'immagine è nitida",
+          "VISIBILITY": "Il tuo volto è visibile e ben illuminato",
+          "NO_REFLEX": "Non ci sono riflessi sulla fotocamera",
+          "AUDIO_SIGNAL": "Un <strong>segnale acustico</strong> ti avviserà quando il movimento è corretto e sei pronto per eseguire il prossimo."
+        },
+        "ACTIONS": {
+          "START": {
+            "TEXT": "Inizia acquisizione"
+          }
+        }
+      }
     },
     "VERIDAS": {
-      "GENERIC":{
-        "VIEWS":{
-          "LOADING":{
-            "CARD":{
-              "TITLE":"Caricamento"
+      "GENERIC": {
+        "VIEWS": {
+          "LOADING": {
+            "CARD": {
+              "TITLE": "Caricamento"
             }
           },
-          "FEEDBACK":{
-            "VIDEOERRORPERMISSION":{
-              "CARD":{
-                "TITLE":"Per favore, assicurati di concedere all'applicazione l'accesso alla fotocamera e al microfono"
+          "FEEDBACK": {
+            "VIDEOERRORPERMISSION": {
+              "CARD": {
+                "TITLE": "Per favore, assicurati di concedere all'applicazione l'accesso alla fotocamera e al microfono"
               }
             }
-        }
+          }
         }
       },
-      "SDKDOCUMENT":{
-        "VIEWS":{
-          "INSTRUCTIONS":{
-            "CARD":{
-              "TITLE":{
-                "DOCUMENTS":[
+      "SDKDOCUMENT": {
+        "VIEWS": {
+          "INSTRUCTIONS": {
+            "CARD": {
+              "TITLE": {
+                "DOCUMENTS": [
                   "Preparati a fotografare la parte anteriore del documento"
                 ],
                 "DOCUMENTS_BACK": [
                   "Preparati a fotografare la parte posteriore del documento"
                 ]
               },
-              "SUBTITLE":{
-                "DOCUMENTS":[
+              "SUBTITLE": {
+                "DOCUMENTS": [
                   "Assicurati che tutti i dati del documento siano visibili, e che non ci siano riflessi o ombre.",
                   "Quando il documento è a fuoco, la cattura verrà eseguita automaticamente"
                 ]
               }
             },
-            "BUTTONS":{
-              "STARTPROCESS":{
+            "BUTTONS": {
+              "STARTPROCESS": {
                 "TEXT": "Prosegui"
               }
             }
           },
-          "CAPTURE":{
-            "MANUALCAPTURE":{
-              "OBVERSE":{
-                "CARD":{
-                  "TITLE":"Clicca qui per acquisire il documento",
-                  "HEADER":"Clicca qui per acquisire il documento"
+          "CAPTURE": {
+            "MANUALCAPTURE": {
+              "OBVERSE": {
+                "CARD": {
+                  "TITLE": "Clicca qui per acquisire il documento",
+                  "HEADER": "Clicca qui per acquisire il documento"
                 }
               },
-              "REVERSE":{
-                "CARD":{
-                  "TITLE":"Clicca qui per acquisire il documento",
-                  "HEADER":"Clicca qui per acquisire il documento"
+              "REVERSE": {
+                "CARD": {
+                  "TITLE": "Clicca qui per acquisire il documento",
+                  "HEADER": "Clicca qui per acquisire il documento"
                 }
               }
             },
-            "FEEDBACK":{
-              "PRECAPTURE":{
-                "OBVERSE":{
-                  "CARD":{
-                    "HEADER":"Cattura",
+            "FEEDBACK": {
+              "PRECAPTURE": {
+                "OBVERSE": {
+                  "CARD": {
+                    "HEADER": "Cattura",
                     "TITLE": "Mostra la parte anteriore del documento",
-                    "SHORT":"Mostra la parte anteriore del documento"
+                    "SHORT": "Mostra la parte anteriore del documento"
                   }
                 },
-                "REVERSE":{
-                  "CARD":{
-                    "HEADER":"Cattura",
+                "REVERSE": {
+                  "CARD": {
+                    "HEADER": "Cattura",
                     "TITLE": "Mostra la parte posteriore del documento",
-                    "SHORT":"Mostra la parte posteriore del documento"
+                    "SHORT": "Mostra la parte posteriore del documento"
                   }
                 }
               }
             },
-            "ERRORS":{
-              "ORIENTATIONCHANGEDRESTARTMESSAGE":{
-                "CARD":{
+            "ERRORS": {
+              "ORIENTATIONCHANGEDRESTARTMESSAGE": {
+                "CARD": {
                   "TITLE": "Non è stato possibile completare il processo a causa di un cambio di orientamento inaspettato del dispositivo.",
-                  "BUTTONS":{
-                    "RESTART":{
+                  "BUTTONS": {
+                    "RESTART": {
                       "TEXT": "Riprova"
                     }
                   }
                 }
               }
             },
-            "CENTERED":{
-              "OBVERSE":{
-                "CARD":{
+            "CENTERED": {
+              "OBVERSE": {
+                "CARD": {
                   "TITLE": "Immagine correttamente centrata"
                 }
               },
-              "REVERSE":{
-                "CARD":{
+              "REVERSE": {
+                "CARD": {
                   "TITLE": "Immagine correttamente centrata"
                 }
               }
             },
-            "NOTCENTERED":{
-              "OBVERSE":{
-                "CARD":{
+            "NOTCENTERED": {
+              "OBVERSE": {
+                "CARD": {
                   "TITLE": "Cerca di centrare l'immagine del documento nel rettangolo visualizzato, successivamente non muoverla o inclinarla"
                 }
               },
-              "REVERSE":{
-                "CARD":{
+              "REVERSE": {
+                "CARD": {
                   "TITLE": "Cerca di centrare l'immagine del documento nel rettangolo visualizzato, successivamente non muoverla o inclinarla"
                 }
               }
             },
-            "SUCCESS":{
-              "OBVERSE":{
-                "CARD":{
+            "SUCCESS": {
+              "OBVERSE": {
+                "CARD": {
                   "TITLE": "Immagine raccolta correttamente"
                 }
               },
-              "REVERSE":{
-                "CARD":{
+              "REVERSE": {
+                "CARD": {
                   "TITLE": "Immagine raccolta correttamente"
                 }
               }
             },
-            "TOOFAR":{
-              "OBVERSE":{
-                "CARD":{
-                  "TITLE":"Avvicina il documento"
+            "TOOFAR": {
+              "OBVERSE": {
+                "CARD": {
+                  "TITLE": "Avvicina il documento"
                 }
               },
-              "REVERSE":{
-                "CARD":{
-                  "TITLE":"Avvicina il documento"
+              "REVERSE": {
+                "CARD": {
+                  "TITLE": "Avvicina il documento"
                 }
               }
             },
-            "TOOCLOSE":{
-              "OBSERVE":{
-                "CARD":{
-                  "TITLE":"Allontana il documento"
+            "TOOCLOSE": {
+              "OBSERVE": {
+                "CARD": {
+                  "TITLE": "Allontana il documento"
                 }
               },
-              "REVERSE":{
-                "CARD":{
-                  "TITLE":"Allontana il documento"
+              "REVERSE": {
+                "CARD": {
+                  "TITLE": "Allontana il documento"
                 }
               }
             }
           },
-          "REVIEWIMAGE":{
-            "CARD":{
-              "TITLE":"Verifica che il documento sia ben centrato e leggibile",
-              "CARD":{
-                "BUTTONS":{
-                  "CONTINUE":{
-                    "TEXT":"Continua"
+          "REVIEWIMAGE": {
+            "CARD": {
+              "TITLE": "Verifica che il documento sia ben centrato e leggibile",
+              "CARD": {
+                "BUTTONS": {
+                  "CONTINUE": {
+                    "TEXT": "Continua"
                   },
-                  "REPEAT":{
-                    "TEXT":"Ripeti"
+                  "REPEAT": {
+                    "TEXT": "Ripeti"
                   }
                 }
               }
             }
           },
-          "DEVICEROTATED":{
-            "CARD":{
-              "TITLE":"L'orientamento del dispositivo è cambiato"
+          "DEVICEROTATED": {
+            "CARD": {
+              "TITLE": "L'orientamento del dispositivo è cambiato"
             }
           }
         }
       },
-      "SDKSELFIE":{
-        "VIEWS":{
-          "DEVICEROTATED":{
-            "CARD":{
-              "TITLE":"L'orientamento del dispositivo è cambiato"
+      "SDKSELFIE": {
+        "VIEWS": {
+          "DEVICEROTATED": {
+            "CARD": {
+              "TITLE": "L'orientamento del dispositivo è cambiato"
             }
           }
         }
       },
-      "SDKVIDEO":{
-        "VIEWS":{
-            "DEVICEROTATED":{
-              "CARD":{
-                "TITLE":"L'orientamento del dispositivo è cambiato"
-              }
+      "SDKVIDEO": {
+        "VIEWS": {
+          "DEVICEROTATED": {
+            "CARD": {
+              "TITLE": "L'orientamento del dispositivo è cambiato"
+            }
           }
-      }
+        }
       }
     },
     "FEEDBACK": {
+      "ERROR_NO_CAMERA_PERMISSONS": "Sembra che non siano stati dati i permessi per accedere alla camera",
+      "ERROR_NO_CAMERA_OR_MIC_PERMISSONS": "Sembra che non siano stati dati i permessi per accedere alla camera o al microfono",
       "UPLOAD_IMAGE_ERROR": "Si è verificato un problema nel caricare le immagini. Riprova o contatta l'assistenza",
       "UPLOAD_DOCUMENT_ERROR": "Si è verificato un problema nel caricare il documento. Riprova o contatta l'assistenza",
       "CAPTURE_DOCUMENT_ERROR": "Si è verificato un problema nell'acquisizione del documento. Riprova o contatta l'assistenza",
@@ -237,6 +672,7 @@
         "UISCHEMA_NOT_FOUND_ERROR": "Impossibile renderizzare il form di aggiornamento dati personali (UI Schema non trovato)",
         "UPDATE_PERSON_ERROR": "Si è verificato un problema durante l'aggiornamento dei dati personali. Riprova o contatta l'assistenza"
       },
+      "UPLOAD_CONSENTS_ERROR": "Si è verificato un problema nel caricare i consensi espressi. Riprova o contatta l'assistenza",
       "NO_VALID_INFO_TEMPLATE": "Configurazione info template non valida o assente. Impossibile visualizzare le informazioni previste",
       "ERROR": "Errore",
       "MOREINFO": "Codice segnalazione: ",
@@ -252,465 +688,130 @@
     "NOTIFY": {
       "CONFIRM": "Continua",
       "FINISH": "Termina",
-      "ONBWGT":{
-        "ACTION":{
-          "WAIT":{
+      "RETRY": "Riprova",
+      "ONBWGT": {
+        "ACTION": {
+          "WAIT": {
             "TITLE": "Attendi prego",
             "CONTENT": "Stiamo elaborando le informazioni che hai inserito"
           }
         },
-        "PROCESS":{
-          "REJECTED":{
+        "PROCESS": {
+          "REJECTED": {
             "TITLE": "Respinto",
             "CONTENT": "La tua richiesta è stata respinta, controlla nuovamente il documento e i dati e riprova da capo"
           },
-          "COMPLETED":{
+          "COMPLETED": {
             "TITLE": "Completato",
-            "CONTENT":"La tua richiesta è stata completata con successo"
-          }
-        }
-      }
-    },
-    "DATA-UPDATE": {
-      "PERSONAL_DATA": "Dati Personali",
-      "CITIZENSHIPS": "Cittadinanza",
-      "PLACE_OF_BIRTH": "Luogo Di Nascita",
-      "IDENTIFIER": "Identificativo",
-      "IDENTITY_DOCUMENT": "Documenti Di Identità",
-      "ADDRESSES": "Indirizzi",
-      "ROOT": {
-        "ERROR": {
-          "CUSTOM": "Mancano Dati Obbligatori"
-        }
-      },
-      "PLACE": "Luogo",
-      "NORMALIZED_ADDRESS": "Indirizzo Normalizzato",
-      "PLACE_OF_ISSUE": "Luogo Di Emissione",
-      "PERSONALDATA": {
-        "FIRSTNAME": {
-          "LABEL": "Nome",
-          "DESCRIPTION": "Nome",
-          "ERROR":{
-            "CUSTOM": "Il dato è obbligatorio e deve essere composto solo di caratteri alfabetici"
-          }
-        },
-        "LASTNAME": {
-          "LABEL": "Cognome",
-          "DESCRIPTION": "Cognome",
-          "ERROR":{
-            "CUSTOM": "Il dato è obbligatorio e deve essere composto solo di caratteri alfabetici"
-          }
-        },
-        "ADDITIONALDATA": {
-          "SECONDLASTNAME": {
-            "LABEL": "Secondo Cognome",
-            "DESCRIPTION": "Secondo Cognome (Se presente)",
-            "ERROR":{
-              "CUSTOM": "Il dato è obbligatorio e deve essere composto solo di caratteri alfabetici"
-            }
-          }
-        },
-        "GENDER": {
-          "LABEL": "Genere",
-          "DESCRIPTION": "Genere",
-          "ERROR": {
-            "CUSTOM": "Il dato è mancante o non valido"
-          }
-        },
-        "IDENTIFICATIONNUMBER": {
-          "LABEL": "Codice Fiscale",
-          "DESCRIPTION": "Identificativo Unico Soggetto",
-          "ERROR":{
-            "CUSTOM": "Il dato è mancante o non valido"
-          }
-        },
-        "DATEOFBIRTH": {
-          "LABEL": "Data Di Nascita",
-          "DESCRIPTION": "Data Di Nascita",
-          "ERROR":{
-            "CUSTOM": "Dato Mancante o Non Valido"
-          }
-        },
-        "CITIZENSHIPS": {
-          "LABEL": "Cittadinanza",
-          "DESCRIPTION": "Cittadinanza",
-          "ADDTOOLTIP": "Aggiungi",
-          "ADDARIALABEL": "Aggiungi",
-          "REMOVETOOLTIP": "Rimuovi",
-          "REMOVEARIALABEL": "Rimuovi",
-          "UPARIALABEL": "Alza",
-          "UP": "Su",
-          "DOWN": "Giu",
-          "DOWNARIALABEL": "Giu",
-          "NODATAMESSAGE": "Nessun Dato Inserito",
-          "NOSELECTION": "Dato Non Selezionato",
-          "DELETEDIALOGTITLE": "Cancella",
-          "DELETEDIALOGMESSAGE": "Confermi l'intenzione di cancellare?",
-          "DELETEDIALOGACCEPT": "Conferma",
-          "DELETEDIALOGDECLINE": "Annulla",
-          "ERROR": {
-            "CUSTOM": "Dato Obbligatorio"
-          }
-        },
-        "PLACEOFBIRTH": {
-          "COUNTRY": {
-            "LABEL": "Paese Di Nascita",
-            "DESCRIPTION": "Paese Di Nascita",
-            "ERROR": {
-              "CUSTOM": "Dato Obbligatorio"
-            }
-          },
-          "COUNTRYSUBDIVISION": {
-            "LABEL": "Provincia",
-            "DESCRIPTION": "Provincia",
-            "ERROR": {
-              "CUSTOM": "Dato Obbligatorio"
-            }
-          },
-          "CITY": {
-            "LABEL": "Comune",
-            "DESCRIPTION": "Comune",
-            "ERROR": {
-              "CUSTOM": "Dato Obbligatorio"
-            }
-          }
-        },
-        "IDENTIFIER": {
-          "COUNTRY": {
-            "LABEL": "Paese",
-            "DESCRIPTION": "Descrizione"
-          },
-          "SERIALTYPE": {
-            "LABEL": "Tipo",
-            "DESCRIPTION": "Tipo Identificativo"
-          },
-          "NUMBER": {
-            "LABEL": "Codice Identificativo",
-            "DESCRIPTION": "Codice Identificativo"
-          }
-        }
-      },
-      "IDENTITYDOCUMENTS": {
-        "LABEL": "Documenti Di Identità",
-        "DESCRIPTION": "Documenti Di Identità",
-        "ERROR": {
-          "CUSTOM": "Mancano Dati Obbligatori"
-        },
-        "NUMBER": {
-          "LABEL": "Numero",
-          "DESCRIPTION": "Numero",
-          "ERROR": {
-            "CUSTOM": "Dato Obbligatorio"
-          }
-        },
-        "ISSUER": {
-          "LABEL": "Ente Emettitore",
-          "DESCRIPTION": "Ente Emettitore",
-          "ERROR": {
-            "CUSTOM": "Dato Obbligatorio"
-          }
-        },
-        "ISSUEDATE": {
-          "LABEL": "Data Emissione",
-          "DESCRIPTION": "Data Emissione",
-          "ERROR": {
-            "CUSTOM": "Dato Obbligatorio"
-          }
-        },
-        "EXPIRATIONDATE": {
-          "LABEL": "Data Scadenza",
-          "DESCRIPTION": "Data Scadenza",
-          "ERROR": {
-            "CUSTOM": "Dato Obbligatorio"
-          }
-        },
-        "PLACEOFISSUE": {
-          "COUNTRY": {
-            "LABEL": "Paese Di Emissione",
-            "DESCRIPTION": "Paese Di Emissione",
-            "ERROR": {
-              "CUSTOM": "Dato Obbligatorio"
-            }
-          },
-          "COUNTRYSUBDIVISION": {
-            "LABEL": "Regione",
-            "DESCRIPTION": "Regione",
-            "ERROR": {
-              "CUSTOM": "Dato Obbligatorio"
-            }
-          },
-          "CITY": {
-            "LABEL": "Comune",
-            "DESCRIPTION": "Comune",
-            "ERROR": {
-              "CUSTOM": "Dato Obbligatorio"
-            }
-          }
-        },
-        "ADDTOOLTIP": "Aggiungi",
-        "ADDARIALABEL": "Aggiungi",
-        "REMOVETOOLTIP": "Rimuovi",
-        "REMOVEARIALABEL": "Rimuovi",
-        "UPARIALABEL": "Su",
-        "UP": "Su",
-        "DOWN": "Giu",
-        "DOWNARIALABEL": "Giu",
-        "NODATAMESSAGE": "Nessun Documento Inserito",
-        "NOSELECTION": "Nessun Dato Selezionato",
-        "DELETEDIALOGTITLE": "Cancella",
-        "DELETEDIALOGMESSAGE": "Confermi l'intenzione di cancellare?",
-        "DELETEDIALOGACCEPT": "Conferma",
-        "DELETEDIALOGDECLINE": "Annulla"
-      },
-      "ADDITIONAL_DOCUMENTS": "Documenti Aggiuntivi",
-      "ADDITIONALDOCUMENTS": {
-        "ISSUER": {
-          "LABEL": "Ente Emettitore",
-          "DESCRIPTION": "Ente Emettitore",
-          "ERROR": {
-            "CUSTOM": "Dato Obbligatorio"
-          }
-        },
-        "ISSUEDATE": {
-          "LABEL": "Data Emissione",
-          "DESCRIPTION": "Data Emissione",
-          "ERROR": {
-            "CUSTOM": "Dato Obbligatorio"
-          }
-        },
-        "PLACEOFISSUE": {
-          "COUNTRY": {
-            "LABEL": "Paese Di Nascita",
-            "DESCRIPTION": "Paese Di Nascita",
-            "ERROR": {
-              "CUSTOM": "Dato Obbligatorio"
-            }
-          },
-          "COUNTRYSUBDIVISION": {
-            "LABEL": "Regione",
-            "DESCRIPTION": "Regione",
-            "ERROR": {
-              "CUSTOM": "Dato Obbligatorio"
-            }
-          },
-          "CITY": {
-            "LABEL": "Comune",
-            "DESCRIPTION": "Comune",
-            "ERROR": {
-              "CUSTOM": "Dato Obbligatorio"
-            }
-          }
-        },
-        "LABEL": "Documenti Aggiuntivi",
-        "DESCRIPTION": "Documenti Aggiuntivi",
-        "ADDTOOLTIP": "Aggiungi",
-        "ADDARIALABEL": "Aggiungi",
-        "REMOVETOOLTIP": "Cancella",
-        "REMOVEARIALABEL": "Cancella",
-        "UPARIALABEL": "Su",
-        "UP": "Su",
-        "DOWN": "Giu",
-        "DOWNARIALABEL": "Giu",
-        "NODATAMESSAGE": "Nessun Documento Aggiuntivo Inserito",
-        "NOSELECTION": "Nessun Dato Selezionato",
-        "DELETEDIALOGTITLE": "Cancella",
-        "DELETEDIALOGMESSAGE": "Confermi l'intenzione di cancellare?",
-        "DELETEDIALOGACCEPT": "Conferma",
-        "DELETEDIALOGDECLINE": "Annulla"
-      },
-      "ADDRESSDATAS": {
-        "LABEL": "Recapiti",
-        "DESCRIPTION": "Recapiti",
-        "ADDTOOLTIP": "Aggiungi",
-        "ADDARIALABEL": "Aggiungi",
-        "REMOVETOOLTIP": "Cancella",
-        "REMOVEARIALABEL": "Cancella",
-        "UPARIALABEL": "Su",
-        "UP": "Su",
-        "DOWN": "Giu",
-        "DOWNARIALABEL": "Giu",
-        "NODATAMESSAGE": "Nessun Indirizzo Inserito",
-        "NOSELECTION": "Nessun Dato Selezionato",
-        "DELETEDIALOGTITLE": "Cancella",
-        "DELETEDIALOGMESSAGE": "Confermi l'intenzione di cancellare?",
-        "DELETEDIALOGACCEPT": "Conferma",
-        "DELETEDIALOGDECLINE": "Annulla",
-        "TYPE": {
-          "LABEL": "Tipologia",
-          "DESCRIPTION": "Tipologia",
-          "ERROR": {
-            "CUSTOM": "Dato Obbligatorio"
-          }
-        },
-        "ADDRESS": {
-          "LABEL": "Indirizzo",
-          "DESCRIPTION": "Indirizzo",
-          "ERROR": {
-            "CUSTOM": "Dato Obbligatorio"
-          }
-        },
-        "ADDRESSNUMBER": {
-          "LABEL": "Numero",
-          "DESCRIPTION": "Numero",
-          "ERROR": {
-            "CUSTOM": "Dato Obbligatorio"
-          }
-        },
-        "POSTCODE": {
-          "LABEL": "CAP",
-          "DESCRIPTION": "Codice Avviamento Postale",
-          "ERROR": {
-            "CUSTOM": "Dato Obbligatorio"
-          }
-        },
-        "PLACE": {
-          "COUNTRY": {
-            "LABEL": "Paese",
-            "DESCRIPTION": "Paese",
-            "ERROR": {
-              "CUSTOM": "Dato Obbligatorio"
-            }
-          },
-          "COUNTRYSUBDIVISION": {
-            "LABEL": "Regione",
-            "DESCRIPTION": "Regione",
-            "ERROR": {
-              "CUSTOM": "Dato Obbligatorio"
-            }
-          },
-          "CITY": {
-            "LABEL": "Comune",
-            "DESCRIPTION": "Comune",
-            "ERROR": {
-              "CUSTOM": "Dato Obbligatorio"
-            }
-          }
-        },
-        "NORMALIZEDADDRESS": {
-          "DUF": {
-            "LABEL": "Indirizzo Normalizzato",
-            "DESCRIPTION": "Indirizzo Normalizzato"
-          },
-          "DUG": {
-            "LABEL": "Dug",
-            "DESCRIPTION": "Dug"
-          },
-          "HOUSENUMBER": {
-            "LABEL": "Numero Casa",
-            "DESCRIPTION": "Numero Casa"
-          }
-        }
-      },
-      "CONTACTS": {
-        "TITLE": "Contatti",
-        "EMAIL": {
-          "LABEL": "Email",
-          "DESCRIPTION": "Email",
-          "ADDTOOLTIP": "Aggiungi",
-          "ADDARIALABEL": "Aggiungi",
-          "REMOVETOOLTIP": "Cancella",
-          "REMOVEARIALABEL": "Cancella",
-          "UPARIALABEL": "Su",
-          "UP": "Su",
-          "DOWN": "Giu",
-          "DOWNARIALABEL": "Giu",
-          "NODATAMESSAGE": "Nessun Email Inserita",
-          "NOSELECTION": "Nessun Dato Selezionato",
-          "DELETEDIALOGTITLE": "Cancella",
-          "DELETEDIALOGMESSAGE": "Confermi l'intenzione di cancellare?",
-          "DELETEDIALOGACCEPT": "Conferma",
-          "DELETEDIALOGDECLINE": "Annulla",
-          "ERROR": {
-            "CUSTOM": "Verifica i dati inseriti"
-          }
-        },
-        "EMAILS": {
-          "TYPE": {
-            "LABEL": "Tipo",
-            "DESCRIPTION": "Tipo Email",
-            "ERROR": {
-              "CUSTOM": "Dato Obbligatorio"
-            }
-          },
-          "VALUE": {
-            "LABEL": "Email",
-            "DESCRIPTION": "Email",
-            "ERROR": {
-              "CUSTOM": "Dato Obbligatorio o Non Valido"
-            }
-          }
-        },
-        "PHONE": {
-          "LABEL": "Telefono",
-          "DESCRIPTION": "Telefono",
-          "ERROR": {
-            "CUSTOM": "Verifica i dati inseriti"
-          },
-          "ADDTOOLTIP": "Aggiungi",
-          "ADDARIALABEL": "Aggiungi",
-          "REMOVETOOLTIP": "Cancella",
-          "REMOVEARIALABEL": "Cancella",
-          "UPARIALABEL": "Su",
-          "UP": "Su",
-          "DOWN": "Giu",
-          "DOWNARIALABEL": "Giu",
-          "NODATAMESSAGE": "Nessun Numero Di Telefono Inserito",
-          "NOSELECTION": "Nessun Dato Selezionato",
-          "DELETEDIALOGTITLE": "Cancella",
-          "DELETEDIALOGMESSAGE": "Confermi l'intenzione di cancellare?",
-          "DELETEDIALOGACCEPT": "Conferma",
-          "DELETEDIALOGDECLINE": "Annulla"
-        },
-        "PHONENUMBERS": {
-          "TYPE": {
-            "LABEL": "Tipo",
-            "DESCRIPTION": "Tipo Numero",
-            "ERROR": {
-              "CUSTOM": "Dato Obbligatorio"
-            }
-          },
-          "VALUE": {
-            "LABEL": "Numero Di Telefono",
-            "DESCRIPTION": "Numero Di Telefono",
-            "ERROR": {
-              "CUSTOM": "Dato Obbligatorio o Non Valido"
-            }
+            "CONTENT": "La tua richiesta è stata completata con successo"
           }
         }
       }
     },
     "VIDEOID": {
-      "OUT_OF_CALENDAR": "Al momento il nostro servizio non è operativo",
-      "OPENING_HOURS": "Gli orari di apertura sono:",
-      "OPENING_HOURS_CLAUSE": "Gli orari potrebbero subire variazioni",
-      "NO_OPERATOR": "I nostri Operatori non sono al momento disponibili, ritenta più tardi",
-      "IF_IN_QUEUE": "In questo momento ci sono {{ size }} utenti in attesa prima di te.", 
-      "IF_IN_QUEUE_ONE": "In questo momento c'è 1 utente in attesa prima di te.",
-      "IF_IN_QUE_II": "Per proseguire clicca il pulsante sottostante e attendi l'operatore incaricato del videoriconoscimento.",
-      "BTN_QUEUE": "Continua",
+      "WELCOME": {
+        "TITLE": "Videoriconoscimento",
+        "SUMMARY": "un nostro operatore penserà ad eseguire il tuo videoriconoscimento.",
+        "HINTS": {
+          "IMAGE": "L’immagine è nitida",
+          "ILLUMINATION": "Il tuo volto è visibile e ben illuminato",
+          "ALONE": "Non devono esserci altre persone nel video",
+          "SILENCE": "Ti trovi in un luogo silenzioso"
+        },
+        "ACTIONS": {
+          "START": {
+            "TEXT": "Inizia videoriconoscimento"
+          }
+        }
+      },
+      "QUEUE_OPEN": {
+        "TITLE": "Pronto per il videoriconoscimento",
+        "MESSAGE": {
+          "QUEUE_SIZE": "<p>Ci sono <b>{{ size }} persone</b> in coda prima di te. Un operatore sarà presto disponibile.</p>",
+          "QUEUE_SIZE_ONE": "<p>C'è <b>una persona</b> in coda prima di te. Un operatore sarà presto disponibile.</p>"
+        },
+        "BTN_TEXT": "Inizia"
+      },
+      "QUEUE_WAITING": {
+        "TITLE": {
+          "QUEUE_SIZE": "Il tuo turno è quasi arrivato",
+          "QUEUE_SIZE_ZERO": "Ci siamo quasi!"
+        },
+        "MESSAGE": {
+          "QUEUE_SIZE": "<p>Ci sono <b>{{ position }} persone</b> in coda prima di te. Un operatore sarà presto disponibile.</p>",
+          "QUEUE_SIZE_ONE": "<p>C'è <b>una persona</b> in coda prima di te. Un operatore sarà presto disponibile.</p>",
+          "QUEUE_SIZE_ZERO": "Ti stiamo collegando con l’operatore per iniziare il videoriconoscimento",
+          "QUEUE_SIZE_NEGATIVE": "Stiamo calcolando la tua posizione in coda..."
+        },
+        "LEAVE_BUTTON": "Abbandona la coda",
+        "DE_QUEUE_DIALOG": {
+          "TITLE": "Confermi di voler abbandonare la coda?",
+          "CONFIRM_BUTTON": "Sì, voglio abbandonare",
+          "CANCEL_BUTTON": "Annulla"
+        }
+      },
+      "QUEUE_CLOSED": {
+        "TITLE": "Nessun operatore disponibile",
+        "MESSAGE": "Ti invitiamo a riprovare nei seguenti orari:",
+        "OPENING_HOURS_CLAUSE": "Gli orari sono soggetti a variazioni",
+        "DAYS": {
+          "MONDAY": "Lun",
+          "TUESDAY": "Mar",
+          "WEDNESDAY": "Mer",
+          "THURSDAY": "Gio",
+          "FRIDAY": "Ven",
+          "SATURDAY": "Sab",
+          "SUNDAY": "Dom"
+        },
+        "SPECIAL_OPENINGS": "Aperture straordinarie",
+        "SPECIAL_CLOSINGS": "Chiusure straordinarie"
+      },
+      "NO_OPERATOR": {
+        "TITLE": "Nessuna risposta",
+        "SUBTITLE": "Non sembrano esserci operatori disponibili.",
+        "TRY_LATER": "Ti invitiamo a riprovare fra poco."
+      },
+      "PRECALL_TESTS": {
+        "IN_PROGRESS": {
+          "TITLE": "Stiamo verificando la qualità della tua connessione"
+        },
+        "BANDWIDTH_TEST": {
+          "FAILED": {
+            "TITLE": "Il tuo dispositivo non rispetta i requisiti di qualità di rete",
+            "MESSAGE": "Controlla la tua connessione e riprova il test.",
+            "BTN_TEXT": "Ripeti test"
+          }
+        },
+        "CAMERA_TEST": {
+          "FAILED": {
+            "ERROR_MESSAGE": "Hai negato l’utilizzo della fotocamera o del microfono da parte del browser. Apri le Impostazioni del tuo browser per abilitarli."
+          }
+        }
+      },
+      "MEETING": {
+        "SUBTITLE": {
+          "WAITING": "Rimani in attesa del tuo turno"
+        }
+      },
       "BTN_RECONNECT": "Riconnettimi",
-      "DEQUEUE_MSG": "Cliccando su Conferma perderai la priorità acquisita e se dovessi riprendere la procedura dovrai rimetterti in attesa di un operatore incaricato del videoriconoscimento.",
-      "DEQUEUE_CONFIRM_BUTTON": "Conferma",
-      "DEQUEUE_CANCEL_BUTTON": "Annulla",
-      "BANDWIDTH_TEST_RETRY_BUTTON": "Riprova",
-      "LEAVE_BUTTON": "Torno più tardi",
+      "BTN_RETRY": "Riprova",
       "OPEN": "Aperto",
       "CLOSED": "Chiuso",
       "DATE_EXCEPTION": "Con le seguenti eccezioni:",
-      "TITLE": "Video identificazione",
-      "MEETING_TERMINATED": "La sessione di videoriconoscimento è conclusa",
+      "TITLE": "Videoriconoscimento",
+      "MEETING_TERMINATED": {
+        "TITLE": "Grazie!",
+        "MESSAGE": "La chiamata è terminata."
+      },
       "MEETING_STARTED_OR_IN_PROGRESS": "Sessione di videoriconoscimento già avviata",
       "ERROR": {
         "JOIN_MEETING_FAILED": "Impossibile accedere alla sessione di videoriconoscimento. Prova a ricaricare la pagina e se il problema persiste contatta l'assistenza."
       },
-      "BANDWIDTH_TEST_MSG": "E' in esecuzione la verifica della connettività<br>Attendere prego",
-      "BANDWIDTH_TEST_MSG_FAILED": "La verifica della connettività non è riuscito<br>Riprova",
-      "BANDWIDTH_TEST_MSG_PASSED": "La verifica della connettività è stato completato con successo",
       "WAITING": {
         "TITLES": {
           "NEXT_TURN": "Il tuo turno è quasi arrivato",
           "POSITION": "Sei in coda, posizione {{ position }}",
-          "CALCULATING": "Calcolo della posizione in coda..." 
+          "CALCULATING": "Calcolo della posizione in coda..."
         },
         "SUBTITLES": {
           "NEXT_TURN": "Ci siamo quasi, un operatore sarà presto disponibile per te",
@@ -719,58 +820,65 @@
       }
     },
     "REQUIREMENTS": {
-      "TITLE": "Requisiti",
-      "CAMERA_AVAILABLE": "Disponibile",
-      "CAMERA_NOT_AVAILABLE": "Non disponibile",
-      "CHOOSE_OTHER_CAMERA": "Scegli un'altra video camera",
-      "TEST_REPEAT": "Ripeti test",
-      "GO_ON": "Continua",
+      "TITLE": "Verifica dei requisiti",
+      "REPEAT": "Ripeti test",
       "BROWSER": "Browser",
       "CAMERA": "Fotocamera",
-      "CAMERA_RESOLUTION": "Risoluzione camera",
-      "DEVICE": "Tipo Dispositivo",
-      "DEVICE_NOT_ENABLED": "Non abilitato",
-      "DEVICE_ENABLED": "Abilitato",
-      "DEVICE_DESKTOP_NOT_SUPPORTED": "Solo i dispositivi mobile sono supportati",
-      "DEVICE_MOBILE_NOT_SUPPORTED": "Solo i dispositivi desktop sono supportati",
-      "CAMERA_NOT_AVAILABLE_MESSAGE": "L'uso della fotocamera da parte del browser non è stato autorizzato",
-      "CAMERA_NO_RIGHT_RESOLUTION_MESSAGE": "La risoluzione della fotocamera è troppo bassa",
-      "CAMERA_NO_RIGHT_BROWSER": "La versione del browser in uso non è supportata"
-    },
-    "INFO": {
-      "UPLOAD-DOCUMENT": {
-        "DEFAULT": [
-          "<div><h1 style='font-weight: bold; margin-bottom: 36px'>Come acquisire un documento tramite webcam pagina 1</h1><img style='max-width: 100%;' src='./assets/images/infographyc/upload_documents.png' alt='Posizionamento del documento'><div style='margin-bottom: 24px;'><h2>1. Posizionamento del documento</h2><p>Appoggia il documento su una superficie piana. Assicurati che sia ben illuminato, evitando ombre o riflessi.</p></div><div style='margin-bottom: 24px;'><h2>2. Regolazione della webcam</h2><p>Centra il documento nell'inquadratura e mantieni la fotocamera parallela per evitare distorsioni.</p></div><div style='margin-bottom: 24px;'><h2>3. Preparazione alla cattura</h2><p>Verifica che il testo sia visibile e che non ci siano oggetti a coprirlo. Elimina eventuali riflessi.</p></div><div style='margin-bottom: 24px;'><h2>4. Acquisizione</h2><p>Premi il pulsante \"Acquisisci\" e attendi la conferma di qualità dell'immagine dall'applicativo.</p></div><p style='text-align: center; font-style: italic; color: #888;'>Se il documento non viene riconosciuto correttamente, ripeti l'operazione seguendo queste accortezze.</p></div>",
-          "<div><h1 style='font-weight: bold; margin-bottom: 36px'>Come acquisire un documento tramite webcam pagina 2</h1><img style='max-width: 100%;' src='./assets/images/infographyc/upload_documents.png' alt='Posizionamento del documento'><div style='margin-bottom: 24px;'><h2>1. Posizionamento del documento</h2><p>Appoggia il documento su una superficie piana. Assicurati che sia ben illuminato, evitando ombre o riflessi.</p></div><div style='margin-bottom: 24px;'><h2>2. Regolazione della webcam</h2><p>Centra il documento nell'inquadratura e mantieni la fotocamera parallela per evitare distorsioni.</p></div><div style='margin-bottom: 24px;'><h2>3. Preparazione alla cattura</h2><p>Verifica che il testo sia visibile e che non ci siano oggetti a coprirlo. Elimina eventuali riflessi.</p></div><div style='margin-bottom: 24px;'><h2>4. Acquisizione</h2><p>Premi il pulsante \"Acquisisci\" e attendi la conferma di qualità dell'immagine dall'applicativo.</p></div><p style='text-align: center; font-style: italic; color: #888;'>Se il documento non viene riconosciuto correttamente, ripeti l'operazione seguendo queste accortezze.</p></div>"
-        ]
+      "DEVICE_TYPE": "Tipo Dispositivo",
+      "INTRO": {
+        "HEADER": "<b>Ti diamo il benvenuto!</b><br />Prima di iniziare, assicurati di rispettare i seguenti requisiti:",
+        "CAMERA": "<b>Fotocamera</b>: consenti al tuo browser di avere l'accesso.",
+        "BROWSER": "<b>Browser</b>: Chrome, Firefox, Edge o Safari aggiornato all''ultima versione.",
+        "DEVICE": "<b>È obbligatorio l'utilizzo di un dispositivo mobile</b>",
+        "STARTBTN": "Inizia"
       },
-      "UPDATE-PERSON": {
-        "DEFAULT": [
-          "<div><h1 style='font-weight: bold; margin-bottom: 36px'>Come compilare i campi anagrafici</h1><img style='max-width: 100%;' src='./assets/images/infographyc/update_person.png' alt='Verifica Dati Acquisiti'><div style='margin-bottom: 24px;'><h2>1. Verifica i dati acquisiti</h2><p>Controlla che i dati estratti dal documento siano corretti (es. nome, cognome, data di nascita).</p></div><div style='margin-bottom: 24px;'><h2>2. Correggi eventuali errori</h2><p>Se alcuni campi sono errati, modificali manualmente per garantire la correttezza.</p></div><div style='margin-bottom: 24px;'><h2>3. Completa i campi mancanti</h2><p>Aggiungi eventuali informazioni non compilate automaticamente, come email, numero di telefono o indirizzo.</p></div><div style='margin-bottom: 24px;'><h2>4. Salva i dati</h2><p>Una volta che tutti i campi sono corretti e completi, clicca sul pulsante \"Continua\" per memorizzare le informazioni in modo sicuro.</p></div><p style='text-align: center; font-style: italic; color: #888;'>Controlla attentamente i dati prima di salvare per evitare errori.</p></div>"
-        ]
+      "ERRORS": {
+        "BROWSER_NOT_COMPATIBLE": "Il browser che stai utilizzando non è supportato, ti consigliamo l'uso di un browser più aggiornato.",
+        "CAMERA_NOT_AVAILABLE": "Fotocamera non disponibile. Assicurati che sia collegata e funzionante.",
+        "CAMERA_AVAILABILITY_ERROR": "Si è verificato un errore durante la verifica della fotocamera. Riprova o contatta l'assistenza.",
+        "CAMERA_PERMISSION_DENIED": "Hai negato l'utilizzo della fotocamera da parte del browser. Apri le Impostazioni del tuo browser per abilitarla.",
+        "CAMERA_RESOLUTION_ERROR": "Si è verificato un errore durante la verifica della fotocamera. Riprova o contatta l'assistenza.",
+        "CAMERA_RESOLUTION_TOO_LOW": "La risoluzione della fotocamera è troppo bassa. Utilizza un dispositivo dotato di fotocamera con una risoluzione di almeno {{resolution.width}}x{{resolution.height}} pixel.",
+        "MOBILE_DEVICE_NOT_PERMITTED": "È richiesto l'utilizzo di un dispositivo desktop per poter continuare.",
+        "DESKTOP_DEVICE_NOT_PERMITTED": "È richiesto l'utilizzo di un dispositivo mobile per poter continuare.",
+        "DEVICE_TYPE_NOT_PERMITTED": "Il dispositivo che stai utilizzando non è supportato. Utilizza un dispositivo compatibile per continuare."
       },
-      "LIVENESS": {
-        "DEFAULT": [
-          "<div><h1 style='font-weight: bold; margin-bottom: 36px'>Come eseguire lo step di verifica del volto</h1><div style='margin-bottom: 24px;'><h2>1. Segui le istruzioni sullo schermo</h2><img style='max-width: 100%;' src='./assets/images/infographyc/liveness.png' alt='Acquisizione volto da webcam'><p>Durante questo step, osserva il riquadro in basso nella schermata per le istruzioni richieste.</p></div><div style='margin-bottom: 24px;'><h2>2. Rimani inquadrato al centro</h2><p>Assicurati di mantenere il viso centrato nell'inquadratura per una corretta rilevazione.</p></div><div style='margin-bottom: 24px;'><h2>3. Ruota la testa a destra</h2><p>Quando richiesto, ruota delicatamente la testa verso destra seguendo le istruzioni sullo schermo.</p></div><div style='margin-bottom: 24px;'><h2>4. Inclina la testa a sinistra</h2><p>Inclina leggermente la testa verso sinistra se richiesto dal sistema.</p></div><p style='text-align: center; font-style: italic; color: #888;'>Segui attentamente le istruzioni per garantire il corretto completamento dello step.</p></div>"
-        ]
+      "WELCOME": {
+        "TITLE": "Identificati in pochi passi",
+        "SUBTITLE": "Ti diamo il benvenuto!",
+        "MESSAGE": "Prima di iniziare, assicurati di rispettare i seguenti requisiti:",
+        "HINTS": {
+          "CAMERA": "<strong>Fotocamera</strong>: consenti al tuo browser di avere l'accesso.",
+          "BROWSER": "<strong>Browser</strong>: Chrome, Firefox, Edge o Safari aggiornato all''ultima versione.",
+          "DEVICE": "<strong>È obbligatorio l'utilizzo di un dispositivo mobile</strong>"
+        },
+        "ACTIONS": {
+          "START": {
+            "TEXT": "Inizia"
+          }
+        }
       },
-      "VIDEO-ID": {
-        "DEFAULT": [
-          "<div><h1 style='font-weight: bold; margin-bottom: 36px'>Come eseguire lo step di video indentificazione</h1><img style='max-width: 100%;' src='./assets/images/infographyc/video_id.png' alt='Video Identificazione'><div style='margin-bottom: 24px;'><h2>1. Segui le istruzioni sullo schermo</h2><p>Durante questo step, verrà effettuato un video riconoscimento attraverso la tua webcam.</p></div><div style='margin-bottom: 24px;'><h2>2. Mettiti in coda ed attendi il tuo turno</h2><p>Premi il pulsante 'Mettiti in coda' e attendi il tuo turno per la video identificazione.</p></div><div style='margin-bottom: 24px;'><h2>3. Segui le richieste dell'operatore</h2><p>Segui le istruzioni che ti vengono date dall'operatatore</p></div>"
-        ]
-      }
+      "WAITING_TITLE": "Stiamo verificando la conformità del tuo dispositivo"
     }
   },
   "COMMON": {
+    "EXIT": "Esci",
+    "PROCEED": "Procedi",
     "BACK": "Indietro",
     "NEXT": "Avanti",
     "CONTINUE": "Continua",
     "CLOSE": "Chiudi",
     "NO_RESULT": "Nessun risultato",
+    "UNABLE_TO_PROCEED": "Impossibile procedere",
+    "RETRY": "Riprova",
     "WARNING": "Attenzione",
+    "COUNTDOWN_TIME_REMAINING": "{{countdown}} rimanenti",
+    "COUNTDOWN_TIME_REMAINING_ANNOUNCE": "{{countdown}} secondi rimanenti",
+    "COUNTDOWN_TIME_REMAINING_ANNOUNCE_LASTS": "{{countdown}} secondi",
+    "COUNTDOWN_ZERO_ACTION": "Le verifiche sono ancora in corso. Avanzerai automaticamente al termine",
     "DOCUMENT_TYPE": {
-      "DRIVING_LICENSE":  "Patente di guida",
-      "ELECTRONIC_IDENTITY_CARD":  "Carta d'identità elettronica",
+      "DRIVING_LICENSE": "Patente di guida",
+      "ELECTRONIC_IDENTITY_CARD": "Carta d'identità elettronica",
       "HEALTH_INSURANCE_CARD": "Tessera sanitaria",
       "IDENTITY_CARD": "Carta d'identità",
       "PASSPORT": "Passaporto"
@@ -1036,6 +1144,12 @@
       "FRIDAY": "Venerdì",
       "SATURDAY": "Sabato",
       "SUNDAY": "Domenica"
+    },
+    "WELCOME_STEP": {
+      "SUMMARY": "In questa fase:"
+    },
+    "STEP_HINTS": {
+      "TITLE": "Assicurati di rispettare questi requisiti:"
     }
   }
 }
