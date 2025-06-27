@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>obw_grey_5</key>
+	<string>#DEEEF7</string>
+	<key>obw_grey_4</key>
+	<string>#666666</string>
+	<key>obw_grey_3</key>
+	<string>#bfbfbf</string>
+	<key>obw_grey_2</key>
+	<string>#E6E6E6</string>
+	<key>obw_grey_1</key>
+	<string>#F2F2F2</string>
+	<key>obw_secondary</key>
+	<string>#002857</string>
+	<key>obw_primary</key>
+	<string>#0070cc</string>
+</dict>
+</plist>
